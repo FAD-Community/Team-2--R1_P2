@@ -7,7 +7,7 @@ class DioConsumer implements ApiConsumer {
   final Dio dio;
   DioConsumer(this.dio) {
     dio.options = BaseOptions(
-      baseUrl: ApiConstants.baseUrl,
+      baseUrl: Endpoints.baseUrl,
       connectTimeout: const Duration(seconds: 10),
       receiveTimeout: const Duration(seconds: 10),
       sendTimeout: const Duration(seconds: 10),

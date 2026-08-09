@@ -1,16 +1,24 @@
+
 class StatusCode {
-  static const ok = 200;
-  static const created = 201;
-  static const accepted = 202;
-  static const noContent = 204;
-
-  static const badRequest = 400;
-  static const unauthorized = 401;
-  static const forbidden = 403;
-  static const notFound = 404;
-  static const conflict = 409;
-
-  static const internalServerError = 500;
-  static const badGateway = 502;
-  static const serviceUnavailable = 503;
+  static const int ok = 200;
+  static const int created = 201;
+  static const int noContent = 204;
+ 
+  static const int badRequest = 400;
+  static const int unauthorized = 401;
+  static const int forbidden = 403;
+  static const int notFound = 404;
+  static const int conflict = 409;
+  static const int unprocessableEntity = 422;
+ 
+  static const int internalServerError = 500;
+  static const int badGateway = 502;
+  static const int serviceUnavailable = 503;
+ 
+  static const int connectTimeout = -1;
+  static const int receiveTimeout = -2;
+  static const int sendTimeout = -3;
+  static const int cancel = -4;
+  static const int noInternetConnection = -5;
+  static const int unknown = -6;
 }
