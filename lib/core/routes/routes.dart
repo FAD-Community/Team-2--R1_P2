@@ -1,5 +1,4 @@
 class Routes {
-
   // Common
   // =========================
   static const String splashScreen = '/splashScreen';
@@ -23,7 +22,7 @@ class Routes {
   static const String feedbackScreen = '/feedbackScreen';
   static const String customerSupportScreen = '/customerSupportScreen';
   static const String customerProfileScreen = '/customerProfileScreen';
-  static const String customerPersonalDataScreen ='/customerPersonalDataScreen';
+  static const String customerPersonalDataScreen = '/customerPersonalDataScreen';
   static const String helpContactUsScreen = '/helpContactUsScreen';
   static const String customerCommunityScreen = '/customerCommunityScreen';
 
@@ -46,4 +45,12 @@ class Routes {
   static const String emergencyRequestsScreen = '/emergencyRequestsScreen';
   static const String providerCommunityScreen = '/providerCommunityScreen';
   static const String providerSupportScreen = '/providerSupportScreen';
+
+  // Admin
+  // =========================
+  static const String adminDashboardScreen = '/adminDashboardScreen';
+  static const String providerVerificationScreen = '/providerVerificationScreen';
+  static const String serviceRequestsScreen = '/serviceRequestsScreen';
+  static const String reviewsAndFeedbackScreen = '/reviewsAndFeedbackScreen';
+  static const String systemSettingsScreen = '/systemSettingsScreen';
 }
