@@ -1,0 +1,85 @@
+
+{
+  "@@locale": "en",
+
+  "appName": "FixNow",
+
+  "welcome": "Welcome to FixNow",
+  "welcomeDescription": "Get reliable home services from qualified professionals.",
+
+  "login": "Login",
+  "register": "Register",
+  "logout": "Logout",
+
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "phoneNumber": "Phone Number",
+
+  "forgotPassword": "Forgot Password?",
+  "dontHaveAccount": "Don't have an account?",
+  "alreadyHaveAccount": "Already have an account?",
+  "createAccount": "Create Account",
+
+  "home": "Home",
+  "services": "Services",
+  "requests": "Requests",
+  "orders": "Orders",
+  "notifications": "Notifications",
+  "profile": "Profile",
+
+  "search": "Search",
+  "searchServices": "Search services",
+  "categories": "Categories",
+
+  "serviceDetails": "Service Details",
+  "createRequest": "Create Service Request",
+  "requestDetails": "Request Details",
+  "requestDescription": "Request Description",
+  "selectService": "Select Service",
+
+  "quotations": "Quotations",
+  "quotationDetails": "Quotation Details",
+  "acceptQuotation": "Accept Quotation",
+  "rejectQuotation": "Reject Quotation",
+
+  "trackRequest": "Track Request",
+  "trackService": "Track Service",
+
+  "submit": "Submit",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "edit": "Edit",
+  "retry": "Retry",
+
+  "loading": "Loading...",
+  "success": "Success",
+  "error": "Error",
+
+  "networkError": "Please check your internet connection.",
+  "serverError": "Something went wrong. Please try again later.",
+  "unknownError": "An unexpected error occurred.",
+
+  "requiredField": "This field is required",
+  "invalidEmail": "Please enter a valid email address",
+  "passwordTooShort": "Password must be at least 8 characters",
+  "passwordsDoNotMatch": "Passwords do not match",
+
+  "noResults": "No results found",
+  "noRequests": "No service requests found",
+  "noNotifications": "No notifications found",
+
+  "language": "Language",
+  "english": "English",
+  "arabic": "Arabic",
+
+  "settings": "Settings",
+  "changeLanguage": "Change Language",
+
+  "logoutConfirmation": "Are you sure you want to logout?"
+}
+

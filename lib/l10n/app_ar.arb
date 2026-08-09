@@ -1,0 +1,85 @@
+
+{
+  "@@locale": "ar",
+
+  "appName": "فيكس ناو",
+
+  "welcome": "مرحبًا بك في FixNow",
+  "welcomeDescription": "احصل على خدمات منزلية موثوقة من متخصصين مؤهلين.",
+
+  "login": "تسجيل الدخول",
+  "register": "إنشاء حساب",
+  "logout": "تسجيل الخروج",
+
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "firstName": "الاسم الأول",
+  "lastName": "اسم العائلة",
+  "phoneNumber": "رقم الهاتف",
+
+  "forgotPassword": "هل نسيت كلمة المرور؟",
+  "dontHaveAccount": "ليس لديك حساب؟",
+  "alreadyHaveAccount": "لديك حساب بالفعل؟",
+  "createAccount": "إنشاء حساب",
+
+  "home": "الرئيسية",
+  "services": "الخدمات",
+  "requests": "الطلبات",
+  "orders": "الطلبات",
+  "notifications": "الإشعارات",
+  "profile": "الملف الشخصي",
+
+  "search": "بحث",
+  "searchServices": "ابحث عن الخدمات",
+  "categories": "الفئات",
+
+  "serviceDetails": "تفاصيل الخدمة",
+  "createRequest": "إنشاء طلب خدمة",
+  "requestDetails": "تفاصيل الطلب",
+  "requestDescription": "وصف الطلب",
+  "selectService": "اختر الخدمة",
+
+  "quotations": "عروض الأسعار",
+  "quotationDetails": "تفاصيل عرض السعر",
+  "acceptQuotation": "قبول عرض السعر",
+  "rejectQuotation": "رفض عرض السعر",
+
+  "trackRequest": "تتبع الطلب",
+  "trackService": "تتبع الخدمة",
+
+  "submit": "إرسال",
+  "save": "حفظ",
+  "cancel": "إلغاء",
+  "confirm": "تأكيد",
+  "delete": "حذف",
+  "edit": "تعديل",
+  "retry": "إعادة المحاولة",
+
+  "loading": "جاري التحميل...",
+  "success": "تم بنجاح",
+  "error": "خطأ",
+
+  "networkError": "يرجى التحقق من اتصالك بالإنترنت.",
+  "serverError": "حدث خطأ ما. حاول مرة أخرى لاحقًا.",
+  "unknownError": "حدث خطأ غير متوقع.",
+
+  "requiredField": "هذا الحقل مطلوب",
+  "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح",
+  "passwordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+  "passwordsDoNotMatch": "كلمتا المرور غير متطابقتين",
+
+  "noResults": "لا توجد نتائج",
+  "noRequests": "لا توجد طلبات خدمة",
+  "noNotifications": "لا توجد إشعارات",
+
+  "language": "اللغة",
+  "english": "الإنجليزية",
+  "arabic": "العربية",
+
+  "settings": "الإعدادات",
+  "changeLanguage": "تغيير اللغة",
+
+  "logoutConfirmation": "هل أنت متأكد أنك تريد تسجيل الخروج؟"
+}
+
