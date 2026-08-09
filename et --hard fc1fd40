@@ -1,0 +1,20 @@
+[33m1446864[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelopment[m[33m, [m[1;31morigin/development[m[33m)[m HEAD@{0}: reset: moving to origin/development
+[33m1446864[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelopment[m[33m, [m[1;31morigin/development[m[33m)[m HEAD@{1}: rebase (finish): returning to refs/heads/development
+[33m1446864[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelopment[m[33m, [m[1;31morigin/development[m[33m)[m HEAD@{2}: pull --rebase origin development (start): checkout 1446864f93d6822e0556230230422d98e85355cd
+[33mfc1fd40[m HEAD@{3}: rebase (finish): returning to refs/heads/development
+[33mfc1fd40[m HEAD@{4}: commit: Local l10n and networking and errors and clean arc and work amr and ahmed ehab is merged
+[33mfe2f314[m HEAD@{5}: commit (amend): Merge pull request #2 from FAD-Community/amr/feature/routing
+[33m26eaa5d[m HEAD@{6}: commit (amend): Merge pull request #2 from FAD-Community/amr/feature/routing
+[33m1446864[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelopment[m[33m, [m[1;31morigin/development[m[33m)[m HEAD@{7}: pull --rebase origin development (start): checkout 1446864f93d6822e0556230230422d98e85355cd
+[33m59101c0[m HEAD@{8}: commit: Structure builded
+[33m12b85d4[m[33m ([m[1;31morigin/production[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mproduction[m[33m, [m[1;32mmain[m[33m)[m HEAD@{9}: checkout: moving from production to development
+[33m12b85d4[m[33m ([m[1;31morigin/production[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mproduction[m[33m, [m[1;32mmain[m[33m)[m HEAD@{10}: reset: moving to 12b85d4
+[33m905937f[m HEAD@{11}: reset: moving to HEAD~1
+[33m7418dd4[m HEAD@{12}: reset: moving to HEAD~1
+[33m12b85d4[m[33m ([m[1;31morigin/production[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mproduction[m[33m, [m[1;32mmain[m[33m)[m HEAD@{13}: checkout: moving from main to production
+[33m12b85d4[m[33m ([m[1;31morigin/production[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mproduction[m[33m, [m[1;32mmain[m[33m)[m HEAD@{14}: checkout: moving from development to main
+[33m12b85d4[m[33m ([m[1;31morigin/production[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mproduction[m[33m, [m[1;32mmain[m[33m)[m HEAD@{15}: checkout: moving from main to development
+[33m12b85d4[m[33m ([m[1;31morigin/production[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mproduction[m[33m, [m[1;32mmain[m[33m)[m HEAD@{16}: Branch: renamed refs/heads/main to refs/heads/main
+[33m12b85d4[m[33m ([m[1;31morigin/production[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mproduction[m[33m, [m[1;32mmain[m[33m)[m HEAD@{18}: commit: first commit
+[33m7418dd4[m HEAD@{19}: commit: init commit
+[33m905937f[m HEAD@{20}: Branch: renamed refs/heads/master to refs/heads/main
