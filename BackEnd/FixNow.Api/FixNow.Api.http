@@ -1,0 +1,6 @@
+@FixNow.Api_HostAddress = http://localhost:5030
+
+GET {{FixNow.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
