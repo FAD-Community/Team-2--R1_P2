@@ -1,6 +1,6 @@
 <Solution>
   <Project Path="FixNow.Api/FixNow.Api.csproj" />
   <Project Path="FixNow.Application/FixNow.Application.csproj" Id="115ab6e6-38af-44ce-a30d-7f00009d3d94" />
-  <Project Path="FixNow.Domin/FixNow.Domin.csproj" Id="e7456dfa-5a0f-4b81-87e1-8055254eff29" />
-  <Project Path="FixNow.Infrastrucure/FixNow.Infrastrucure.csproj" Id="937d7f20-36e4-4405-b3d6-23bd6b47f23d" />
+  <Project Path="FixNow.Domin/FixNow.Domain.csproj" Id="e7456dfa-5a0f-4b81-87e1-8055254eff29" />
+  <Project Path="FixNow.Infrastrucure/FixNow.Infrastructure.csproj" Id="937d7f20-36e4-4405-b3d6-23bd6b47f23d" />
 </Solution>

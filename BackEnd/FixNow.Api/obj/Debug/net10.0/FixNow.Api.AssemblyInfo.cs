@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FixNow.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12b85d48b09e3d113fe9e39568d831f44aeb25f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2aa66c9c1a019a34b37559b342b41fdc502bebf")]
 [assembly: System.Reflection.AssemblyProductAttribute("FixNow.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FixNow.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

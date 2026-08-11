@@ -1,0 +1,114 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "FixNow.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/ServiceRequest": {
+      "get": {
+        "tags": [
+          "ServiceRequest"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ServiceRequestDtoListApiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ServiceRequestDto": {
+        "type": "object",
+        "properties": {
+          "customerId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "categoryId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "addressId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "priceEstimate": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "finalPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "acceptedTechnicianId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "scheduledDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ServiceRequestDtoListApiResponse": {
+        "type": "object",
+        "properties": {
+          "statuscode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isSuccess": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ServiceRequestDto"
+            },
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "ServiceRequest"
+    }
+  ]
+}

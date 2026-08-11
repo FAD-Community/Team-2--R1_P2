@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\FixNow\\Team-2--R1_P2\\BackEnd\\FixNow.Domin\\FixNow.Domin.csproj",
-      "projectName": "FixNow.Domin",
-      "projectPath": "C:\\Users\\DELL\\Downloads\\FixNow\\Team-2--R1_P2\\BackEnd\\FixNow.Domin\\FixNow.Domin.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\FixNow\\Team-2--R1_P2\\BackEnd\\FixNow.Domin\\FixNow.Domain.csproj",
+      "projectName": "FixNow.Domain",
+      "projectPath": "C:\\Users\\DELL\\Downloads\\FixNow\\Team-2--R1_P2\\BackEnd\\FixNow.Domin\\FixNow.Domain.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DELL\\Downloads\\FixNow\\Team-2--R1_P2\\BackEnd\\FixNow.Domin\\obj\\",
       "projectStyle": "PackageReference",
