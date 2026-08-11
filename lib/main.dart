@@ -1,14 +1,12 @@
+import 'package:fix_now_team_2/core/cache/storage/shared_preferences_helper.dart';
+import 'package:fix_now_team_2/core/di/service_locator.dart';
 import 'package:flutter/material.dart';
+import 'fix_now.dart';
 
 void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false);
-  }
+  WidgetsFlutterBinding.ensureInitialized();
+  setupServiceLocator();
+  CacheHelper.init();
+  
+  runApp(const FixNow());
 }
