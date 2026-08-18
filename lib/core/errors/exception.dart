@@ -1,5 +1,11 @@
 import 'api_error_model.dart';
+/*
+الملف ده بيعمل حاجة واحدة
+APIبيحوّل أنواع أخطاء ال
+  Exceptions  إلى أنواع
+مفهومة داخل التطبيق.
 
+ */
 abstract class AppException implements Exception {
   final ApiErrorModel errorModel;
   const AppException(this.errorModel);
