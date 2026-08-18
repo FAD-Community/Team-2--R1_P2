@@ -1,5 +1,31 @@
 import 'package:flutter/material.dart';
 
+class AppColors {
+  // Primary
+  static const Color primary = Color(0xFFE87719);
+  static const Color primaryLight = Color(0xFFF9B073);
+  static const Color primaryBackground = Color(0xFFFFF1E5);
+
+  // Background
+  static const Color backgroundPrimary = Color(0xFFFFFFFF);
+
+  // Border
+  static const Color borderDefault = Color(0xFFD9D9D9);
+  static const Color borderInput = Color(0xFFD1D1D6);
+  static const Color line = Color(0xFF000000);
+
+  // State
+  static const Color error = Color(0xFFE81919);
+  static const Color success = Color(0xFF19E873);
+  static const Color warning = Color(0xFFE5E819);
+}
+
+
+
+
+
+
+/*
 abstract final class AppColors {
   // Primary
   static const Color primary = Color(0xFF2563EB);
@@ -40,4 +66,8 @@ abstract final class AppColors {
   static const Color white = Colors.white;
   static const Color black = Colors.black;
   static const Color transparent = Colors.transparent;
+
+
 }
+
+ */
