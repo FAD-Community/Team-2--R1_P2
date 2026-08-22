@@ -177,5 +177,11 @@
     "termsAndConditions": "Terms and Conditions",
     "aboutUs": "About Us",
     "helpAndSupport": "Help & Support",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "easyBooking": "Easy Booking",
+    "easyBookingDescription": "Book your home service in just a few taps. Simple, quick, and hassle-free.",
+    "securePayment": "Secure Payment",
+    "securePaymentDescription": "Your payments are protected with advanced security and encryption. Pay safely, every time.",
+    "fastResponse": "Fast Response",
+    "fastResponseDescription": "We connect you with nearby providers who respond quickly and arrive on time."
 }

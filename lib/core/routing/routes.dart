@@ -1,6 +1,7 @@
 class Routes {
   // Common
   // =========================
+
   static const String splashScreen = '/splashScreen';
   static const String onboardingScreen = '/onboardingScreen';
   static const String accountTypeScreen = '/accountTypeScreen';
@@ -10,6 +11,7 @@ class Routes {
 
   // Customer
   // =========================
+
   static const String customerSignUpScreen = '/customerSignUpScreen';
   static const String customerHomeScreen = '/customerHomeScreen';
   static const String serviceInfoScreen = '/serviceInfoScreen';
@@ -17,17 +19,20 @@ class Routes {
   static const String favoritesScreen = '/favoritesScreen';
   static const String emergencyBookingScreen = '/emergencyBookingScreen';
   static const String currentRequestScreen = '/currentRequestScreen';
-  static const String previousCompletedRequestScreen = '/previousCompletedRequestScreen';
+  static const String previousCompletedRequestScreen =
+      '/previousCompletedRequestScreen';
   static const String reviewsScreen = '/reviewsScreen';
   static const String feedbackScreen = '/feedbackScreen';
   static const String customerSupportScreen = '/customerSupportScreen';
   static const String customerProfileScreen = '/customerProfileScreen';
-  static const String customerPersonalDataScreen = '/customerPersonalDataScreen';
+  static const String customerPersonalDataScreen =
+      '/customerPersonalDataScreen';
   static const String helpContactUsScreen = '/helpContactUsScreen';
   static const String customerCommunityScreen = '/customerCommunityScreen';
 
   // Service Provider
   // =========================
+
   static const String providerSignUpScreen = '/providerSignUpScreen';
   static const String verificationStatusScreen = '/verificationStatusScreen';
   static const String providerHomeScreen = '/providerHomeScreen';
@@ -48,8 +53,10 @@ class Routes {
 
   // Admin
   // =========================
+
   static const String adminDashboardScreen = '/adminDashboardScreen';
-  static const String providerVerificationScreen = '/providerVerificationScreen';
+  static const String providerVerificationScreen =
+      '/providerVerificationScreen';
   static const String serviceRequestsScreen = '/serviceRequestsScreen';
   static const String reviewsAndFeedbackScreen = '/reviewsAndFeedbackScreen';
   static const String systemSettingsScreen = '/systemSettingsScreen';

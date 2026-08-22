@@ -544,4 +544,25 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get contactUs => 'تواصل معنا';
+
+  @override
+  String get easyBooking => 'حجز سهل';
+
+  @override
+  String get easyBookingDescription =>
+      'احجز خدمتك المنزلية في خطوات بسيطة. بسهولة وسرعة وبدون أي تعقيد.';
+
+  @override
+  String get securePayment => 'دفع آمن';
+
+  @override
+  String get securePaymentDescription =>
+      'مدفوعاتك محمية بأحدث تقنيات الأمان والتشفير. ادفع بأمان في كل مرة.';
+
+  @override
+  String get fastResponse => 'استجابة سريعة';
+
+  @override
+  String get fastResponseDescription =>
+      'نوصلك بمقدمي خدمات قريبين منك يستجيبون بسرعة ويصلون في الموعد.';
 }

@@ -2,9 +2,8 @@
 class ApiErrorModel {
   final String? message;
   final int? statusCode;
-
-  // لو فيه validation errors لكل field
   final Map<String, dynamic>? errors; 
+  
   ApiErrorModel({this.message, this.statusCode, this.errors});
  
   factory ApiErrorModel.fromJson(dynamic json) {
