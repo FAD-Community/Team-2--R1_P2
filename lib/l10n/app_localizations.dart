@@ -1165,6 +1165,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Contact Us'**
   String get contactUs;
+
+  /// No description provided for @easyBooking.
+  ///
+  /// In en, this message translates to:
+  /// **'Easy Booking'**
+  String get easyBooking;
+
+  /// No description provided for @easyBookingDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Book your home service in just a few taps. Simple, quick, and hassle-free.'**
+  String get easyBookingDescription;
+
+  /// No description provided for @securePayment.
+  ///
+  /// In en, this message translates to:
+  /// **'Secure Payment'**
+  String get securePayment;
+
+  /// No description provided for @securePaymentDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Your payments are protected with advanced security and encryption. Pay safely, every time.'**
+  String get securePaymentDescription;
+
+  /// No description provided for @fastResponse.
+  ///
+  /// In en, this message translates to:
+  /// **'Fast Response'**
+  String get fastResponse;
+
+  /// No description provided for @fastResponseDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'We connect you with nearby providers who respond quickly and arrive on time.'**
+  String get fastResponseDescription;
 }
 
 class _AppLocalizationsDelegate

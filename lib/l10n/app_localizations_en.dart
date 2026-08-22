@@ -547,4 +547,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get contactUs => 'Contact Us';
+
+  @override
+  String get easyBooking => 'Easy Booking';
+
+  @override
+  String get easyBookingDescription =>
+      'Book your home service in just a few taps. Simple, quick, and hassle-free.';
+
+  @override
+  String get securePayment => 'Secure Payment';
+
+  @override
+  String get securePaymentDescription =>
+      'Your payments are protected with advanced security and encryption. Pay safely, every time.';
+
+  @override
+  String get fastResponse => 'Fast Response';
+
+  @override
+  String get fastResponseDescription =>
+      'We connect you with nearby providers who respond quickly and arrive on time.';
 }
