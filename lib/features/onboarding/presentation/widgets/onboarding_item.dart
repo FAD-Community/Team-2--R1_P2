@@ -12,12 +12,13 @@ class OnboardingItem extends StatelessWidget {
     return Column(
    
       children: [
-        // Logo
-        // Onboarding Image
-        SizedBox(
-          height: 285.h,
-          width: double.infinity,
-          child: Image.asset(model.image, fit: BoxFit.contain),
+        Align(
+          alignment: Alignment.topCenter,
+          child: SizedBox(
+            height: 285.h,
+            width: double.infinity,
+            child: Image.asset(model.image, fit: BoxFit.contain),
+          ),
         ),
         SizedBox(height: 18.h),
         // Content
@@ -30,20 +31,13 @@ class OnboardingItem extends StatelessWidget {
               Container(
                 width: 50.w,
                 height: 50.w,
-                decoration: const BoxDecoration(
-                  color: AppColors.primary,
+                decoration: BoxDecoration(
+                  color: model.iconBackgroundColor,
                   shape: BoxShape.circle,
                 ),
-                child: Icon(
-                  Icons.touch_app_outlined,
-                  color: AppColors.white,
-                  size: 27.sp,
-                ),
+                child: Icon(model.icon, color: AppColors.white, size: 27.sp),
               ),
-
               SizedBox(width: 16.w),
-
-              // Title + Description
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -56,9 +50,7 @@ class OnboardingItem extends StatelessWidget {
                         color: AppColors.textPrimary,
                       ),
                     ),
-
                     SizedBox(height: 5.h),
-
                     Text(
                       model.description,
                       style: TextStyle(
