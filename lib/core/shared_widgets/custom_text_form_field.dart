@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../theme/app_text_styles.dart';
+
 class CustomTextFormField extends StatelessWidget {
   final String hintText;
   final Color fillColor;
   final Color textColor;
-  final Color hintColor;
   final Color borderColor;
   final Color focusedBorderColor;
   final TextStyle? textStyle;
@@ -23,7 +24,6 @@ class CustomTextFormField extends StatelessWidget {
     required this.hintText,
     required this.fillColor,
     required this.textColor,
-    required this.hintColor,
     required this.borderColor,
     required this.focusedBorderColor,
     this.textStyle,
@@ -50,7 +50,7 @@ class CustomTextFormField extends StatelessWidget {
         filled: true,
         fillColor: fillColor,
         hintText: hintText,
-        hintStyle: hintStyle ?? TextStyle(color: hintColor, fontSize: 14.sp),
+        hintStyle: hintStyle ?? AppTextStyle.font16MediumLabelGrey,
         prefixIcon: prefixIcon,
         suffixIcon: suffixIcon,
         border: OutlineInputBorder(
