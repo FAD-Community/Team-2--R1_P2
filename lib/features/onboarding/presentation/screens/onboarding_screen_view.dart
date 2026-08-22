@@ -34,7 +34,6 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
   @override
   Widget build(BuildContext context) {
     final s = AppLocalizations.of(context)!;
-
     final List<OnboardingModel> onboardingData = [
       OnboardingModel(
         image: Assets.imagesOnboardingOne,
@@ -85,7 +84,7 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
                     duration: const Duration(milliseconds: 250),
                     margin: EdgeInsets.symmetric(horizontal: 3.w),
                     width: isActive ? 30.w : 7.w,
-                    height: 6.h,
+                    height: 8.h,
                     decoration: BoxDecoration(
                       color: isActive ? AppColors.primary : AppColors.border,
                       borderRadius: BorderRadius.circular(10.r),
