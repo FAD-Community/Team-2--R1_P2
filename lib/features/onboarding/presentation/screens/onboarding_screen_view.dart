@@ -1,5 +1,6 @@
 import 'package:fix_now_team_2/constants/assets.dart';
 import 'package:fix_now_team_2/core/theme/app_colors.dart';
+import 'package:fix_now_team_2/core/widgets/custom_elevated_button.dart';
 import 'package:fix_now_team_2/features/onboarding/data/model/onboarding_model.dart';
 import 'package:fix_now_team_2/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
@@ -34,46 +35,60 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
   @override
   Widget build(BuildContext context) {
     final s = AppLocalizations.of(context)!;
-
     final List<OnboardingModel> onboardingData = [
       OnboardingModel(
         image: Assets.imagesOnboardingOne,
         title: s.easyBooking,
         description: s.easyBookingDescription,
+        icon: Icons.touch_app_outlined,
+        iconBackgroundColor: AppColors.purple,
+        iconColor: AppColors.white,
       ),
+
       OnboardingModel(
         image: Assets.imagesOnboardingTwo,
         title: s.securePayment,
         description: s.securePaymentDescription,
+        icon: Icons.verified_user_outlined,
+        iconBackgroundColor: AppColors.purple,
+        iconColor: AppColors.white,
       ),
+
       OnboardingModel(
         image: Assets.imagesOnboardingThree,
         title: s.fastResponse,
         description: s.fastResponseDescription,
+        icon: Icons.bolt_outlined,
+        iconBackgroundColor: AppColors.purple,
+        iconColor: AppColors.white,
       ),
     ];
 
     return Scaffold(
-      backgroundColor: AppColors.background,
+      backgroundColor: AppColors.purpleBackground,
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 16.w),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SizedBox(height: 45.h),
               // Pages
               Expanded(
-                child: PageView.builder(
-                  controller: _pageController,
-                  itemCount: onboardingData.length,
-                  onPageChanged: (index) {
-                    setState(() {
-                      _currentPage = index;
-                    });
-                  },
-                  itemBuilder: (context, index) {
-                    return OnboardingItem(model: onboardingData[index]);
-                  },
+                child: Padding(
+                  padding: EdgeInsets.only(top: 60.h),
+                  child: PageView.builder(
+                    clipBehavior: Clip.none,
+                    controller: _pageController,
+                    itemCount: onboardingData.length,
+                    onPageChanged: (index) {
+                      setState(() {
+                        _currentPage = index;
+                      });
+                    },
+                    itemBuilder: (context, index) {
+                      return OnboardingItem(model: onboardingData[index]);
+                    },
+                  ),
                 ),
               ),
               // Page Indicator
@@ -82,25 +97,28 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
                 children: List.generate(onboardingData.length, (index) {
                   final bool isActive = index == _currentPage;
                   return AnimatedContainer(
+                    clipBehavior: Clip.none,
                     duration: const Duration(milliseconds: 250),
                     margin: EdgeInsets.symmetric(horizontal: 3.w),
                     width: isActive ? 30.w : 7.w,
-                    height: 6.h,
+                    height: 7.h,
                     decoration: BoxDecoration(
-                      color: isActive ? AppColors.primary : AppColors.border,
+                      color: isActive
+                          ? AppColors.purple
+                          : AppColors.purpleLight,
                       borderRadius: BorderRadius.circular(10.r),
                     ),
                   );
                 }),
               ),
-              SizedBox(height: 35.h),
+              SizedBox(height: 40.h),
               // Button
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 75.w),
+                padding: EdgeInsets.only(right: 40.w, left: 40.w, bottom: 20.w),
                 child: SizedBox(
                   width: double.infinity,
-                  height: 42.h,
-                  child: ElevatedButton(
+                  height: 48.h,
+                  child: CustomElevatedButton(
                     onPressed: () {
                       if (_currentPage < onboardingData.length - 1) {
                         _pageController.nextPage(
@@ -109,14 +127,6 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
                         );
                       }
                     },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: AppColors.primary,
-                      foregroundColor: AppColors.white,
-                      elevation: 0,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8.r),
-                      ),
-                    ),
                     child: Text(
                       _currentPage == onboardingData.length - 1
                           ? s.getStarted
@@ -129,7 +139,6 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
                   ),
                 ),
               ),
-              SizedBox(height: 50.h),
             ],
           ),
         ),

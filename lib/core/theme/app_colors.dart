@@ -6,6 +6,11 @@ abstract final class AppColors {
   static const Color primaryDark = Color(0xFF1D4ED8);
   static const Color primaryLight = Color(0xFFDBEAFE);
 
+  // New Colors
+  static const Color purpleLight = Color(0xFFB1B2FC);
+  static const Color purple = Color(0xFF5F60B9);
+  static const Color purpleBackground = Color(0xFFF3F3FB);
+
   // Secondary
   static const Color secondary = Color(0xFF0F766E);
   static const Color secondaryLight = Color(0xFFCCFBF1);
