@@ -7,6 +7,6 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   setupServiceLocator();
   CacheHelper.init();
-  
   runApp(const FixNow());
+
 }
