@@ -8,6 +8,11 @@ class AppTextStyle {
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
+  static TextStyle font20SemiBoldBlack = TextStyle(
+    fontSize: 20.sp,
+    color: Color(0xff0A0A29),
+    fontWeight: FontWeight.w500,
+  );
 
   static TextStyle font20MediumBlackOpacity = TextStyle(
     fontSize: 20.sp,
@@ -26,14 +31,34 @@ class AppTextStyle {
     color: Colors.black,
     fontWeight: FontWeight.normal,
   );
+  static TextStyle font18RegularSubtitle = TextStyle(
+    fontSize: 18.sp,
+    color: Color(0xff44444A),
+    fontWeight: FontWeight.normal,
+  );
 
-  static TextStyle font16MediumBlack = TextStyle(
+  static TextStyle font16MediumLabelGrey = TextStyle(
     fontSize: 16.sp,
-    color: Colors.black,
+    color: Color(0xff414145),
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle font16SemiBoldWhite = TextStyle(
+    fontSize: 16.sp,
+    color: Colors.white,
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle font16SemiBoldPrimary = TextStyle(
+    fontSize: 16.sp,
+    color: AppColors.primary,
     fontWeight: FontWeight.w500,
   );
 
   static TextStyle font24SemiBoldPrimary = TextStyle(
+    fontSize: 24.sp,
+    color: AppColors.primary,
+    fontWeight: FontWeight.w600,
+  );
+  static TextStyle font24MediumPrimary = TextStyle(
     fontSize: 24.sp,
     color: AppColors.primary,
     fontWeight: FontWeight.w600,
