@@ -6,7 +6,7 @@ import '../theme/app_text_styles.dart';
 class CustomTextFormField extends StatelessWidget {
   final String hintText;
   final Color fillColor;
-  final Color textColor;
+  final Color? textColor;
   final Color borderColor;
   final Color focusedBorderColor;
   final TextStyle? textStyle;
@@ -23,7 +23,7 @@ class CustomTextFormField extends StatelessWidget {
     super.key,
     required this.hintText,
     required this.fillColor,
-    required this.textColor,
+    this.textColor,
     required this.borderColor,
     required this.focusedBorderColor,
     this.textStyle,
@@ -45,7 +45,10 @@ class CustomTextFormField extends StatelessWidget {
       obscureText: obscureText,
       validator: validator,
       onChanged: onChanged,
-      style: textStyle ?? TextStyle(color: textColor, fontSize: 14.sp),
+      style: textStyle ?? TextStyle(
+        color: textColor,
+        fontSize: 14.sp,
+      ),
       decoration: InputDecoration(
         filled: true,
         fillColor: fillColor,
@@ -53,13 +56,19 @@ class CustomTextFormField extends StatelessWidget {
         hintStyle: hintStyle ?? AppTextStyle.font16MediumLabelGrey,
         prefixIcon: prefixIcon,
         suffixIcon: suffixIcon,
+
         border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(10.r),
           borderSide: BorderSide(color: borderColor),
         ),
+
         enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(10.r),
           borderSide: BorderSide(color: borderColor),
         ),
+
         focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(10.r),
           borderSide: BorderSide(color: focusedBorderColor),
         ),
       ),
