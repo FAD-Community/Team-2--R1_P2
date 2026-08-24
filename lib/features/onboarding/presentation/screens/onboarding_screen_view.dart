@@ -1,4 +1,5 @@
 import 'package:fix_now_team_2/constants/assets.dart';
+import 'package:fix_now_team_2/core/routing/routes.dart';
 import 'package:fix_now_team_2/core/theme/app_colors.dart';
 import 'package:fix_now_team_2/core/widgets/custom_elevated_button.dart';
 import 'package:fix_now_team_2/features/onboarding/data/model/onboarding_model.dart';
@@ -124,6 +125,11 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
                         _pageController.nextPage(
                           duration: const Duration(milliseconds: 300),
                           curve: Curves.easeInOut,
+                        );
+                      } else {
+                        Navigator.pushReplacementNamed(
+                          context,
+                          Routes.jobDetailsScreen,
                         );
                       }
                     },
