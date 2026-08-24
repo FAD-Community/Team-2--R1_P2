@@ -1,3 +1,4 @@
+import 'package:fix_now_team_2/features/auth/provider_auth/presentation/screens/provider_sign_up_screen.dart';
 import 'package:fix_now_team_2/features/onboarding/presentation/screens/onboarding_screen_view.dart';
 import 'package:fix_now_team_2/features/splash/presentation/screens/splash_screen_view.dart';
 import 'package:flutter/material.dart';
@@ -11,6 +12,9 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const OnboardingScreenView());
       case Routes.splashScreen:
         return MaterialPageRoute(builder: (_) => const SplashScreenView());
+
+      case Routes.providerSignUpScreen:
+        return MaterialPageRoute(builder: (_) => const ProviderSignUpScreen());
 
       default:
         return MaterialPageRoute(
