@@ -568,4 +568,20 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get fastResponseDescription =>
       'We connect you with nearby providers who respond quickly and arrive on time.';
+
+  @override
+  String get agreeTo => 'I agree to ';
+
+  @override
+  String get signUp => 'Sign Up';
+
+  @override
+  String get orSignInWith => 'Or Sign in With';
+
+  @override
+  String get otpVerification => 'OTP Verification';
+
+  @override
+  String get otpVerificationDescription =>
+      'Enter the verification code sent \n to your Email to continue.';
 }

@@ -1,4 +1,5 @@
 import 'package:fix_now_team_2/constants/assets.dart';
+import 'package:fix_now_team_2/core/routing/routes.dart';
 import 'package:fix_now_team_2/core/theme/app_colors.dart';
 import 'package:fix_now_team_2/core/widgets/custom_elevated_button.dart';
 import 'package:fix_now_team_2/features/onboarding/data/model/onboarding_model.dart';
@@ -41,31 +42,28 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
         title: s.easyBooking,
         description: s.easyBookingDescription,
         icon: Icons.touch_app_outlined,
-        iconBackgroundColor: AppColors.purple,
+        iconBackgroundColor: AppColors.primary,
         iconColor: AppColors.white,
       ),
-
       OnboardingModel(
         image: Assets.imagesOnboardingTwo,
         title: s.securePayment,
         description: s.securePaymentDescription,
         icon: Icons.verified_user_outlined,
-        iconBackgroundColor: AppColors.purple,
+        iconBackgroundColor: AppColors.primary,
         iconColor: AppColors.white,
       ),
-
       OnboardingModel(
         image: Assets.imagesOnboardingThree,
         title: s.fastResponse,
         description: s.fastResponseDescription,
         icon: Icons.bolt_outlined,
-        iconBackgroundColor: AppColors.purple,
+        iconBackgroundColor: AppColors.primary,
         iconColor: AppColors.white,
       ),
     ];
-
     return Scaffold(
-      backgroundColor: AppColors.purpleBackground,
+      backgroundColor: AppColors.primaryBackground,
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 16.w),
@@ -86,12 +84,13 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
                       });
                     },
                     itemBuilder: (context, index) {
-                      return OnboardingItem(model: onboardingData[index]);
+                      return OnboardingItem(
+                        onboardingModel: onboardingData[index],
+                      );
                     },
                   ),
                 ),
               ),
-              // Page Indicator
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: List.generate(onboardingData.length, (index) {
@@ -104,15 +103,14 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
                     height: 7.h,
                     decoration: BoxDecoration(
                       color: isActive
-                          ? AppColors.purple
-                          : AppColors.purpleLight,
+                          ? AppColors.primary
+                          : AppColors.primaryLight,
                       borderRadius: BorderRadius.circular(10.r),
                     ),
                   );
                 }),
               ),
               SizedBox(height: 40.h),
-              // Button
               Padding(
                 padding: EdgeInsets.only(right: 40.w, left: 40.w, bottom: 20.w),
                 child: SizedBox(
@@ -124,6 +122,11 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
                         _pageController.nextPage(
                           duration: const Duration(milliseconds: 300),
                           curve: Curves.easeInOut,
+                        );
+                      } else {
+                        Navigator.pushReplacementNamed(
+                          context,
+                          Routes.signInScreen,
                         );
                       }
                     },

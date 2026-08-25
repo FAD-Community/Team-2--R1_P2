@@ -22,6 +22,9 @@ class _SplashScreenViewState extends State<SplashScreenView> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: CustomSplashPhoto());
+    return Scaffold(
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      body: CustomSplashPhoto(),
+    );
   }
 }

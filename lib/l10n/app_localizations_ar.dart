@@ -565,4 +565,20 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get fastResponseDescription =>
       'نوصلك بمقدمي خدمات قريبين منك يستجيبون بسرعة ويصلون في الموعد.';
+
+  @override
+  String get agreeTo => 'أوافق على ';
+
+  @override
+  String get signUp => 'إنشاء حساب';
+
+  @override
+  String get orSignInWith => 'أو تسجيل الدخول باستخدام';
+
+  @override
+  String get otpVerification => 'التحقق من الرمز';
+
+  @override
+  String get otpVerificationDescription =>
+      'أدخل رمز التحقق المُرسل إلى بريدك الإلكتروني للمتابعة.';
 }

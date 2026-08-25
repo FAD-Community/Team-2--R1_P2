@@ -183,5 +183,10 @@
     "securePayment": "دفع آمن",
     "securePaymentDescription": "مدفوعاتك محمية بأحدث تقنيات الأمان والتشفير. ادفع بأمان في كل مرة.",
     "fastResponse": "استجابة سريعة",
-    "fastResponseDescription": "نوصلك بمقدمي خدمات قريبين منك يستجيبون بسرعة ويصلون في الموعد."
+    "fastResponseDescription": "نوصلك بمقدمي خدمات قريبين منك يستجيبون بسرعة ويصلون في الموعد.",
+    "agreeTo": "أوافق على ",
+    "signUp": "إنشاء حساب",
+    "orSignInWith": "أو تسجيل الدخول باستخدام",
+    "otpVerification": "التحقق من الرمز",
+    "otpVerificationDescription": "أدخل رمز التحقق المُرسل إلى بريدك الإلكتروني للمتابعة."
 }
