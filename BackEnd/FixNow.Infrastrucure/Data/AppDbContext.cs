@@ -1,0 +1,33 @@
+using FixNow.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+
+namespace FixNow.Infrastructure.Data;
+
+public class AppDbContext : DbContext
+{
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
+    public DbSet<User> Users => Set<User>();
+    public DbSet<Address> Addresses => Set<Address>();
+    public DbSet<TechnicianProfile> TechnicianProfiles => Set<TechnicianProfile>();
+    public DbSet<ServiceCategory> ServiceCategories => Set<ServiceCategory>();
+    public DbSet<TechnicianCategory> TechnicianCategories => Set<TechnicianCategory>();
+    public DbSet<ServiceRequest> ServiceRequests => Set<ServiceRequest>();
+    public DbSet<RequestAttachment> RequestAttachments => Set<RequestAttachment>();
+    public DbSet<Offer> Offers => Set<Offer>();
+    public DbSet<RequestStatusLog> RequestStatusLogs => Set<RequestStatusLog>();
+    public DbSet<Message> Messages => Set<Message>();
+    public DbSet<Review> Reviews => Set<Review>();
+    public DbSet<Payment> Payments => Set<Payment>();
+    public DbSet<Notification> Notifications => Set<Notification>();
+    public DbSet<OtpVerification> OtpVerifications => Set<OtpVerification>();
+    public DbSet<TechnicianDocument> TechnicianDocuments => Set<TechnicianDocument>();
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        // Applies every IEntityTypeConfiguration<T> in this assembly automatically —
+        // this is what prevents the duplicate shadow-FK bug from the old migration.
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+        base.OnModelCreating(modelBuilder);
+    }
+}
