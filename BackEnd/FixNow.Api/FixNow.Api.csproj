@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	  <UserSecretsId>31f79716-c58d-4c8c-a476-c2503079516a</UserSecretsId>
   </PropertyGroup>
+<<<<<<< Updated upstream
 
   <ItemGroup>
     <Folder Include="Common\" />
@@ -19,3 +20,22 @@
   </ItemGroup>
 
 </Project>
+=======
+	<ItemGroup>
+		<Folder Include="Middleware\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.30" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\FixNow.Application\FixNow.Application.csproj" />
+		<ProjectReference Include="..\FixNow.Domin\FixNow.Domain.csproj" />
+		<ProjectReference Include="..\FixNow.Infrastrucure\FixNow.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>
+>>>>>>> Stashed changes
