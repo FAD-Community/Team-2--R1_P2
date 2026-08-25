@@ -1,4 +1,5 @@
 import 'package:fix_now_team_2/features/account_type/presentation/screens/account_type_screen.dart';
+import 'package:fix_now_team_2/features/auth/provider_auth/presentation/screens/provider_sign_up_info_one.dart';
 import 'package:fix_now_team_2/features/auth/provider_auth/presentation/screens/provider_sign_up_screen.dart';
 import 'package:fix_now_team_2/Features/Job_statues/Presentation/Screens/Job_Statues_Screen.dart';
 import 'package:fix_now_team_2/features/onboarding/presentation/screens/onboarding_screen_view.dart';
@@ -20,6 +21,9 @@ class AppRouter {
 
       case Routes.providerSignUpScreen:
         return MaterialPageRoute(builder: (_) => const ProviderSignUpScreen());
+
+      case Routes.providerSignUpInfoOne:
+        return MaterialPageRoute(builder: (_) => const ProviderSignUpInfoOne());
       case Routes.jobDetailsScreen:
         return MaterialPageRoute(builder: (_) => const JobStatuesScreen());
 
