@@ -1,3 +1,4 @@
+import 'package:fix_now_team_2/features/account_type/presentation/screens/account_type_screen.dart';
 import 'package:fix_now_team_2/features/auth/provider_auth/presentation/screens/provider_sign_up_screen.dart';
 import 'package:fix_now_team_2/Features/Job_statues/Presentation/Screens/Job_Statues_Screen.dart';
 import 'package:fix_now_team_2/features/onboarding/presentation/screens/onboarding_screen_view.dart';
@@ -13,6 +14,9 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const OnboardingScreenView());
       case Routes.splashScreen:
         return MaterialPageRoute(builder: (_) => const SplashScreenView());
+
+      case Routes.accountTypeScreen:
+        return MaterialPageRoute(builder: (_) => const AccountTypeScreen());
 
       case Routes.providerSignUpScreen:
         return MaterialPageRoute(builder: (_) => const ProviderSignUpScreen());
