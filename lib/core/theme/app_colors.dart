@@ -10,6 +10,7 @@ abstract final class AppColors {
   static const Color purpleLight = Color(0xFFB1B2FC);
   static const Color purple = Color(0xFF5F60B9);
   static const Color purpleBackground = Color(0xFFF3F3FB);
+  static const Color scaffoldBackground = Color(0xFFF5F5FF);
 
   // Secondary
   static const Color secondary = Color(0xFF0F766E);
