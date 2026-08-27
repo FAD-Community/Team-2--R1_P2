@@ -1,0 +1,16 @@
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\bin\Release\net10.0\FixNow.Application.deps.json
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\bin\Release\net10.0\FixNow.Application.dll
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\bin\Release\net10.0\FixNow.Application.pdb
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\bin\Release\net10.0\FixNow.Domin.dll
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\bin\Release\net10.0\FixNow.Domin.pdb
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\FixNow.Application.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\FixNow.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\FixNow.Application.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\FixNow.Application.AssemblyInfo.cs
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\FixNow.Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\FixNow.Application.sourcelink.json
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\FixNow.A.C219A1DE.Up2Date
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\FixNow.Application.dll
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\refint\FixNow.Application.dll
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\FixNow.Application.pdb
+C:\Users\DELL\Downloads\Team-2--R1_P2\BackEnd\FixNow.Application\obj\Release\net10.0\ref\FixNow.Application.dll

@@ -1,20 +1,14 @@
-<<<<<<< Updated upstream
-=======
 using FixNow.Application;
 using FixNow.Infrastructure;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
->>>>>>> Stashed changes
-var builder = WebApplication.CreateBuilder(args);
+using RMC_PG.Api.Common.Swagger;
 
+var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
-
-builder.Services.AddControllers();
-<<<<<<< Updated upstream
-=======
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
@@ -22,34 +16,7 @@ builder.Services.AddControllers()
             JsonIgnoreCondition.WhenWritingNull;
     });
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(options =>
-{
-    options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
-    {
-        Name = "Authorization",
-        Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http,
-        Scheme = "Bearer",
-        BearerFormat = "JWT",
-        In = Microsoft.OpenApi.Models.ParameterLocation.Header,
-        Description = "Enter your access token (no need to type 'Bearer' — Swagger adds it automatically)"
-    });
->>>>>>> Stashed changes
-
-    options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
-    {
-        {
-            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
-            {
-                Reference = new Microsoft.OpenApi.Models.OpenApiReference
-                {
-                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            Array.Empty<string>()
-        }
-    });
-});
+builder.Services.AddSwaggerGen();
 // Configure the HTTP request pipeline.
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
@@ -77,12 +44,13 @@ builder.Services.AddAuthentication(options =>
             Encoding.UTF8.GetBytes(jwtSection["Secret"]!))
     };
 });
-
+builder.Services.AddSwaggerConfiguration();
 builder.Services.AddAuthorization();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAuthentication();

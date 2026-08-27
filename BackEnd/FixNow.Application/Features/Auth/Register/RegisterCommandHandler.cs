@@ -41,15 +41,21 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, ApiRespon
 
         if (exists)
             return ApiResponse<string>.FailureResponse("Email or phone number is already registered.", 409); // Conflict
-
+        
+        Enum.TryParse<Role>(
+    request.Role,
+    ignoreCase: true,
+    out var userRole
+     );
         var user = new User
         {
             Id = Guid.NewGuid(),
+            
             FullName = request.FullName,
             Email = request.Email,
             PhoneNumber = request.PhoneNumber,
             PasswordHash = _passwordHasher.Hash(request.Password),
-            Role = request.Role,
+            Role =userRole ,
             Governorate = request.Governorate,
             Area = request.Area,
             DateOfBirth = request.DateOfBirth,
@@ -60,7 +66,7 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommand, ApiRespon
 
         await userRepo.Add(user);
 
-        if (request.Role == Role.Technician)
+        if (request.Role == Role.Technician.ToString())
         {
             var technicianRepo = _unitOfWork.GetRepo<TechnicianProfile, Guid>();
             await technicianRepo.Add(new TechnicianProfile

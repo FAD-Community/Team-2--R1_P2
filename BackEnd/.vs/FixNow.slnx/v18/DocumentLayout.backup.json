@@ -1,0 +1,398 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.api\\fixnow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|solutionrelative:fixnow.api\\fixnow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.application\\features\\auth\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|solutionrelative:fixnow.application\\features\\auth\\register\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.application\\features\\auth\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|solutionrelative:fixnow.application\\features\\auth\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.application\\features\\auth\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|solutionrelative:fixnow.application\\features\\auth\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|solutionrelative:fixnow.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|solutionrelative:fixnow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|solutionrelative:fixnow.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.infrastrucure\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|solutionrelative:fixnow.infrastrucure\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.infrastrucure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|solutionrelative:fixnow.infrastrucure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.infrastrucure\\auth\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|solutionrelative:fixnow.infrastrucure\\auth\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.infrastrucure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|solutionrelative:fixnow.infrastrucure\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.application\\features\\technician\\getmykycdocuments\\getmykycdocumentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|solutionrelative:fixnow.application\\features\\technician\\getmykycdocuments\\getmykycdocumentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.application\\features\\technician\\getmykycdocuments\\getmykycdocumentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|solutionrelative:fixnow.application\\features\\technician\\getmykycdocuments\\getmykycdocumentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.application\\features\\technician\\uploadkycdocument\\uploadkycdocumentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|solutionrelative:fixnow.application\\features\\technician\\uploadkycdocument\\uploadkycdocumentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.infrastrucure\\auth\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|solutionrelative:fixnow.infrastrucure\\auth\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|solutionrelative:fixnow.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.infrastrucure\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|solutionrelative:fixnow.infrastrucure\\reposatories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.application\\features\\auth\\forgotpassword\\forgotpasswordcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|solutionrelative:fixnow.application\\features\\auth\\forgotpassword\\forgotpasswordcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7456DFA-5A0F-4B81-87E1-8055254EFF29}|FixNow.Domin\\FixNow.Domin.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.domin\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7456DFA-5A0F-4B81-87E1-8055254EFF29}|FixNow.Domin\\FixNow.Domin.csproj|solutionrelative:fixnow.domin\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.application\\fixnow.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{115AB6E6-38AF-44CE-A30D-7F00009D3D94}|FixNow.Application\\FixNow.Application.csproj|solutionrelative:fixnow.application\\fixnow.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7456DFA-5A0F-4B81-87E1-8055254EFF29}|FixNow.Domin\\FixNow.Domin.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.domin\\fixnow.domin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7456DFA-5A0F-4B81-87E1-8055254EFF29}|FixNow.Domin\\FixNow.Domin.csproj|solutionrelative:fixnow.domin\\fixnow.domin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.infrastrucure\\fixnow.infrastrucure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{937D7F20-36E4-4405-B3D6-23BD6B47F23D}|FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj|solutionrelative:fixnow.infrastrucure\\fixnow.infrastrucure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|c:\\users\\dell\\downloads\\team-2--r1_p2\\backend\\fixnow.api\\properties\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBA0A26E-D4C7-BC5E-375D-08E21EB27339}|FixNow.Api\\FixNow.Api.csproj|solutionrelative:fixnow.api\\properties\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SwaggerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\Properties\\SwaggerConfiguration.cs",
+              "RelativeDocumentMoniker": "FixNow.Api\\Properties\\SwaggerConfiguration.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\Properties\\SwaggerConfiguration.cs",
+              "RelativeToolTip": "FixNow.Api\\Properties\\SwaggerConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T16:37:51.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FixNow.Infrastrucure",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj",
+              "RelativeDocumentMoniker": "FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj",
+              "RelativeToolTip": "FixNow.Infrastrucure\\FixNow.Infrastrucure.csproj",
+              "ViewState": "AgIAAB0AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-27T16:35:33.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FixNow.Domin",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Domin\\FixNow.Domin.csproj",
+              "RelativeDocumentMoniker": "FixNow.Domin\\FixNow.Domin.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Domin\\FixNow.Domin.csproj",
+              "RelativeToolTip": "FixNow.Domin\\FixNow.Domin.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-27T16:35:15.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FixNow.Application",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\FixNow.Application.csproj",
+              "RelativeDocumentMoniker": "FixNow.Application\\FixNow.Application.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\FixNow.Application.csproj",
+              "RelativeToolTip": "FixNow.Application\\FixNow.Application.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-27T16:35:05.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FixNow.Api",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\FixNow.Api.csproj",
+              "RelativeDocumentMoniker": "FixNow.Api\\FixNow.Api.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\FixNow.Api.csproj",
+              "RelativeToolTip": "FixNow.Api\\FixNow.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-27T16:34:39.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Auth\\Register\\RegisterCommandValidator.cs",
+              "RelativeDocumentMoniker": "FixNow.Application\\Features\\Auth\\Register\\RegisterCommandValidator.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Auth\\Register\\RegisterCommandValidator.cs",
+              "RelativeToolTip": "FixNow.Application\\Features\\Auth\\Register\\RegisterCommandValidator.cs",
+              "ViewState": "AgIAABYAAAAAEQAAAADgvyIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:48:47.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Auth\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "FixNow.Application\\Features\\Auth\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Auth\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "FixNow.Application\\Features\\Auth\\Register\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADgv0QAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:41:04.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FixNow.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FixNow.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAACAlpmZmZkdwBoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:40:00.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "FixNow.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\appsettings.json",
+              "RelativeToolTip": "FixNow.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-26T19:13:03.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "FixNow.Infrastrucure\\DependancyInjection.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\DependancyInjection.cs",
+              "RelativeToolTip": "FixNow.Infrastrucure\\DependancyInjection.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:12:43.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetMyKycDocumentsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Technician\\GetMyKycDocuments\\GetMyKycDocumentsQueryHandler.cs",
+              "RelativeDocumentMoniker": "FixNow.Application\\Features\\Technician\\GetMyKycDocuments\\GetMyKycDocumentsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Technician\\GetMyKycDocuments\\GetMyKycDocumentsQueryHandler.cs",
+              "RelativeToolTip": "FixNow.Application\\Features\\Technician\\GetMyKycDocuments\\GetMyKycDocumentsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T22:36:51.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetMyKycDocumentsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Technician\\GetMyKycDocuments\\GetMyKycDocumentsQuery.cs",
+              "RelativeDocumentMoniker": "FixNow.Application\\Features\\Technician\\GetMyKycDocuments\\GetMyKycDocumentsQuery.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Technician\\GetMyKycDocuments\\GetMyKycDocumentsQuery.cs",
+              "RelativeToolTip": "FixNow.Application\\Features\\Technician\\GetMyKycDocuments\\GetMyKycDocumentsQuery.cs",
+              "ViewState": "AgIAAAIAAADAMzMzMzMLwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T22:36:48.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UploadKycDocumentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Technician\\UploadKycDocument\\UploadKycDocumentCommand.cs",
+              "RelativeDocumentMoniker": "FixNow.Application\\Features\\Technician\\UploadKycDocument\\UploadKycDocumentCommand.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Technician\\UploadKycDocument\\UploadKycDocumentCommand.cs",
+              "RelativeToolTip": "FixNow.Application\\Features\\Technician\\UploadKycDocument\\UploadKycDocumentCommand.cs",
+              "ViewState": "AgIAAAIAAABAMzMzMzMbwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T22:36:39.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Auth\\Register\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "FixNow.Application\\Features\\Auth\\Register\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Auth\\Register\\RegisterCommand.cs",
+              "RelativeToolTip": "FixNow.Application\\Features\\Auth\\Register\\RegisterCommand.cs",
+              "ViewState": "AgIAAAMAAABAzMzMzMwvwBQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T22:30:36.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\Program.cs",
+              "RelativeDocumentMoniker": "FixNow.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Api\\Program.cs",
+              "RelativeToolTip": "FixNow.Api\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAMTMzMzMLwC4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:46:09.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Auth\\EmailSender.cs",
+              "RelativeDocumentMoniker": "FixNow.Infrastrucure\\Auth\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Auth\\EmailSender.cs",
+              "RelativeToolTip": "FixNow.Infrastrucure\\Auth\\EmailSender.cs",
+              "ViewState": "AgIAABcAAAAwzczMzMwmwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:42:02.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BCryptPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Auth\\BCryptPasswordHasher.cs",
+              "RelativeDocumentMoniker": "FixNow.Infrastrucure\\Auth\\BCryptPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Auth\\BCryptPasswordHasher.cs",
+              "RelativeToolTip": "FixNow.Infrastrucure\\Auth\\BCryptPasswordHasher.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAArwA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:41:24.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "FixNow.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "FixNow.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:38:50.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Reposatories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "FixNow.Infrastrucure\\Reposatories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Reposatories\\UnitOfWork.cs",
+              "RelativeToolTip": "FixNow.Infrastrucure\\Reposatories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:36:54.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ForgotPasswordCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Auth\\ForgotPassword\\ForgotPasswordCommandHandler.cs",
+              "RelativeDocumentMoniker": "FixNow.Application\\Features\\Auth\\ForgotPassword\\ForgotPasswordCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Application\\Features\\Auth\\ForgotPassword\\ForgotPasswordCommandHandler.cs",
+              "RelativeToolTip": "FixNow.Application\\Features\\Auth\\ForgotPassword\\ForgotPasswordCommandHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADgvx4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:29:56.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "FixNow.Infrastrucure\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "FixNow.Infrastrucure\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAQAAADAMzMzMzMbwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:20:23.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FixNow.Infrastrucure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Infrastrucure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "FixNow.Infrastrucure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAABcKTMzMzMLwAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:18:55.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Domin\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "FixNow.Domin\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\Team-2--R1_P2\\BackEnd\\FixNow.Domin\\Entities\\Address.cs",
+              "RelativeToolTip": "FixNow.Domin\\Entities\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T21:18:42.578Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
