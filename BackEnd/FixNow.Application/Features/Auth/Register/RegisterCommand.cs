@@ -15,7 +15,7 @@ public record RegisterCommand(
     string Email,
     string PhoneNumber,
     string Password,
-    Role Role,
+    string Role,
     string Governorate,
     string Area,
     DateTime? DateOfBirth

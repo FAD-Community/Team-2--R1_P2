@@ -1,0 +1,54 @@
+﻿using FixNow.Application.Abstractions;
+using FixNow.Infrastructure.Auth;
+using FixNow.Infrastructure.Data;
+using FixNow.Infrastructure.Reposatories;
+using FixNow.Infrastructure.Settings;
+using FixNow.Infrastructure.Storage;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+
+
+namespace FixNow.Infrastrucure;
+
+public static class DependencyInjection
+{
+    public static IServiceCollection AddInfrastructure(
+    this IServiceCollection services,
+    IConfiguration configuration)
+    {
+        services.AddDbContext<AppDbContext>(x =>
+            x.UseSqlServer(configuration.GetConnectionString("myconec")));
+
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+        var jwtSection = configuration.GetSection("JwtSettings");
+        services.AddSingleton(new JwtSettings
+        {
+            Secret = jwtSection["Secret"]!,
+            Issuer = jwtSection["Issuer"]!,
+            Audience = jwtSection["Audience"]!,
+            AccessTokenExpiryMinutes = int.Parse(jwtSection["AccessTokenExpiryMinutes"] ?? "15"),
+            RefreshTokenExpiryDays = int.Parse(jwtSection["RefreshTokenExpiryDays"] ?? "7")
+        });
+
+        var emailSection = configuration.GetSection("EmailSettings");
+        services.AddSingleton(new EmailSettings
+        {
+            SmtpServer = emailSection["SmtpServer"]!,
+            Port = int.Parse(emailSection["Port"] ?? "587"),
+            SenderEmail = emailSection["SenderEmail"]!,
+            SenderName = emailSection["SenderName"]!,
+            Password = emailSection["Password"]!
+        });
+
+        services.AddScoped<IPasswordHasher, BCryptPasswordHasher>();
+        services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+        services.AddScoped<IEmailSender, EmailSender>();
+        services.AddScoped<IOtpService, OtpService>();
+        services.AddScoped<IFileStorageService, LocalFileStorageService>();
+
+        return services;
+    }
+
+}

@@ -4,6 +4,7 @@ using FixNow.Infrastructure.Data;
 using FixNow.Infrastructure.Reposatories;
 using FixNow.Infrastructure.Settings;
 using FixNow.Infrastructure.Storage;
+using FixNow.Infrastrucure.Reposatories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

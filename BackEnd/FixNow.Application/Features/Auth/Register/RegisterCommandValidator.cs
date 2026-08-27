@@ -21,7 +21,7 @@ public class RegisterCommandValidator : AbstractValidator<RegisterCommand>
             .WithMessage("Phone number must be a valid Egyptian number.");
         RuleFor(x => x.Password).NotEmpty().MinimumLength(8);
         RuleFor(x => x.Role)
-            .Must(r => r == Role.Customer || r == Role.Technician)
+            .Must(r => r == Role.Customer.ToString() || r == Role.Technician.ToString())
             .WithMessage("Role must be Customer or Technician.");
 
         RuleFor(x => x.Governorate).NotEmpty().MaximumLength(100);
@@ -32,6 +32,6 @@ public class RegisterCommandValidator : AbstractValidator<RegisterCommand>
         RuleFor(x => x.DateOfBirth)
             .NotNull()
             .WithMessage("Date of birth is required for technicians.")
-            .When(x => x.Role == Role.Technician);
+            .When(x => x.Role == Role.Technician.ToString());
     }
 }
