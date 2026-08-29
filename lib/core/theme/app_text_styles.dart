@@ -68,6 +68,11 @@ class AppTextStyle {
     color: AppColors.primary,
     fontWeight: FontWeight.w600,
   );
+  static TextStyle font24MediumBlack = TextStyle(
+    fontSize: 24.sp,
+    color: Color(0xff0A0A29),
+    fontWeight: FontWeight.w600,
+  );
 
   static TextStyle font24SemiBoldWhite = TextStyle(
     fontSize: 24.sp,

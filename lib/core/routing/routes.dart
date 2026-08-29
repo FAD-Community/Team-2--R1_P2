@@ -41,6 +41,8 @@ class Routes {
   static const String requestDetailsScreen = '/requestDetailsScreen';
   static const String waitingForCustomerScreen = '/waitingForCustomerScreen';
   static const String jobDetailsScreen = '/jobDetailsScreen';
+  static const String providerSignUpInfoOneScreen = '/providerSignUpInfoOneScreen';
+  static const String providerSignUpInfoTwoScreen = '/providerSignUpInfoTwoScreen';
   static const String completionDetailsScreen = '/completionDetailsScreen';
   static const String providerProfileScreen = '/providerProfileScreen';
   static const String completedJobsScreen = '/completedJobsScreen';
