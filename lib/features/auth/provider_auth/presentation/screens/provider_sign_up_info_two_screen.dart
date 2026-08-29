@@ -4,7 +4,9 @@ import 'package:fix_now_team_2/core/widgets/custom_dropdown_field.dart';
 import 'package:fix_now_team_2/core/widgets/custom_provider_sign_up_progress_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/svg.dart';
 
+import '../../../../../core/widgets/custom_payment_method_item.dart';
 import '../../../../../core/widgets/custom_photo_upload_field.dart';
 
 class ProviderSignUpInfoTwoScreen extends StatefulWidget {
@@ -22,6 +24,7 @@ class _ProviderSignUpInfoTwoScreenState
   String? selectedServiceCategory;
   String? selectedExperience;
   String? selectedAvailability;
+  String? selectedPaymentMethod;
 
   @override
   Widget build(BuildContext context) {
@@ -49,10 +52,9 @@ class _ProviderSignUpInfoTwoScreenState
                   ),
 
                   SizedBox(height: 35.h),
-                  // changed color after approved previous PR (waiting)
                   Text(
                     'Professional Details',
-                    style: AppTextStyle.font24MediumPrimary.copyWith(color: Color(0xff0A0A29)),
+                    style: AppTextStyle.font24MediumBlack,
                   ),
 
                   SizedBox(height: 12.h),
@@ -122,8 +124,85 @@ class _ProviderSignUpInfoTwoScreenState
                     'Payment Setup',
                     style: AppTextStyle.font24MediumBlack,
                   ),
-
                   SizedBox(height: 12.h),
+                  CustomPaymentMethodItem(
+                    title: 'Credit / Debit Card',
+                    icon: Padding(
+                      padding: EdgeInsets.all(2.w),
+                      child: SvgPicture.asset(
+                        'assets/icons/credit_icon.svg',
+                        width: 24.w,
+                        height: 24.h,
+                      ),
+                    ),
+                    isSelected: selectedPaymentMethod == 'card',
+                    onTap: () {
+                      setState(() {
+                        selectedPaymentMethod = 'card';
+                      });
+                    },
+                  ),
+
+                  SizedBox(height: 10.h),
+
+                  CustomPaymentMethodItem(
+                    title: 'Mobile Wallet',
+                    icon: Padding(
+                      padding: EdgeInsets.all(2.w),
+                      child: SvgPicture.asset(
+                        'assets/icons/wallet_icon.svg',
+                        width: 24.w,
+                        height: 24.h,
+                      ),
+                    ),
+                    isSelected: selectedPaymentMethod == 'wallet',
+                    onTap: () {
+                      setState(() {
+                        selectedPaymentMethod = 'wallet';
+                      });
+                    },
+                  ),
+
+                  SizedBox(height: 10.h),
+
+                  CustomPaymentMethodItem(
+                    title: 'Cash On Site',
+                    icon: Padding(
+                      padding: EdgeInsets.all(2.w),
+                      child: SvgPicture.asset(
+                        'assets/icons/cash_icon.svg',
+                        width: 24.w,
+                        height: 24.h,
+                      ),
+                    ),
+                    isSelected: selectedPaymentMethod == 'cash',
+                    onTap: () {
+                      setState(() {
+                        selectedPaymentMethod = 'cash';
+                      });
+                    },
+                  ),
+
+                  SizedBox(height: 10.h),
+
+                  CustomPaymentMethodItem(
+                    title: 'Online banking',
+                    icon: Padding(
+                      padding: EdgeInsets.all(2.w),
+                      child: SvgPicture.asset(
+                        'assets/icons/online_bank_icon.svg',
+                        width: 24.w,
+                        height: 24.h,
+                      ),
+                    ),
+                    isSelected: selectedPaymentMethod == 'banking',
+                    onTap: () {
+                      setState(() {
+                        selectedPaymentMethod = 'banking';
+                      });
+                    },
+                  ),
+
                 ],
               ),
             ),
