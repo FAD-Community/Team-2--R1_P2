@@ -53,7 +53,7 @@ class CustomPhotoUploadField extends StatelessWidget {
             Expanded(
               child: Text(
                 text,
-                style: AppTextStyle.font16MediumLabelGrey,
+                style: AppTextStyle.font16MediumTextField,
               ),
             ),
           ],

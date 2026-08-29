@@ -42,7 +42,7 @@ class CustomPaymentMethodItem extends StatelessWidget {
             Expanded(
               child: Text(
                 title,
-                style: AppTextStyle.font16MediumLabelGrey,
+                style: AppTextStyle.font16MediumTextField,
               ),
             ),
 
