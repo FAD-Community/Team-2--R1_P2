@@ -48,14 +48,14 @@ class _ProviderSignUpInfoTwoScreenState
                     currentStep: 3,
                   ),
 
-                  SizedBox(height: 20.h),
+                  SizedBox(height: 35.h),
                   // changed color after approved previous PR (waiting)
                   Text(
                     'Professional Details',
                     style: AppTextStyle.font24MediumPrimary.copyWith(color: Color(0xff0A0A29)),
                   ),
 
-                  SizedBox(height: 24.h),
+                  SizedBox(height: 12.h),
 
                   CustomDropdownField(
                     hintText: 'Service Category',
@@ -98,7 +98,7 @@ class _ProviderSignUpInfoTwoScreenState
                     onTap: () {},
                   ),
 
-                  SizedBox(height: 12.h),
+                  SizedBox(height: 16.h),
 
                   CustomDropdownField(
                     hintText: 'Availability Time',

@@ -43,7 +43,7 @@ class CustomProviderSignUpProgressIndicator extends StatelessWidget {
 
     return Expanded(
       child: Container(
-          height: 1.h,
+          height: 1.5.h,
           color: isActive
               ? AppColors.primary
               : AppColors.line
