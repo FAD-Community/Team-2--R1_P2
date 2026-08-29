@@ -11,6 +11,7 @@ import 'package:fix_now_team_2/features/onboarding/presentation/screens/onboardi
 import 'package:fix_now_team_2/features/splash/presentation/screens/splash_screen_view.dart';
 import 'package:flutter/material.dart';
 
+import '../../features/auth/provider_auth/presentation/screens/provider_sign_up_info_one_screen.dart';
 import 'routes.dart';
 
 class AppRouter {
@@ -31,6 +32,9 @@ class AppRouter {
 
       case Routes.providerSignUpScreen:
         return MaterialPageRoute(builder: (_) => const ProviderSignUpScreen());
+
+      case Routes.providerSignUpInfoOneScreen:
+        return MaterialPageRoute(builder: (_) => const ProviderSignUpInfoOneScreen());
       case Routes.jobDetailsScreen:
         return MaterialPageRoute(builder: (_) => const JobStatuesScreen());
       case Routes.enterEmail:

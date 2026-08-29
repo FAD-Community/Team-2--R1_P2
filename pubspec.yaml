@@ -64,6 +64,7 @@ dependencies:
 
   # Responsive
   flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.3.0
 
   # Freezed
   freezed_annotation: ^3.1.0
