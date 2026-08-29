@@ -6,6 +6,9 @@ class Assets {
   static const String fontsInter18ptMedium = 'assets/fonts/Inter_18pt-Medium.ttf';
   static const String fontsInter18ptRegular = 'assets/fonts/Inter_18pt-Regular.ttf';
   static const String fontsInter18ptSemiBold = 'assets/fonts/Inter_18pt-SemiBold.ttf';
+  static const String iconsCameraIcon = 'assets/icons/camera_icon.svg';
+  static const String iconsLocationIcon = 'assets/icons/location_icon.svg';
+  static const String imagesPesonImage = 'assets/images/peson_image.avif';
   static const String imagesSplash = 'assets/images/splash.png';
   static const String onboardingOne = 'assets/images/onboarding/one.png';
   static const String onboardingThree = 'assets/images/onboarding/three.png';
