@@ -14,6 +14,7 @@ class CustomElevatedButton extends StatelessWidget {
     this.foregroundColor,
     this.borderRadius,
     this.elevation,
+    this.borderColor,
   });
 
   final VoidCallback? onPressed;
@@ -22,6 +23,8 @@ class CustomElevatedButton extends StatelessWidget {
   final double? height;
   final Color? backgroundColor;
   final Color? foregroundColor;
+  final Color? borderColor;
+
   final double? borderRadius;
   final double? elevation;
 
@@ -37,6 +40,7 @@ class CustomElevatedButton extends StatelessWidget {
           foregroundColor: foregroundColor ?? AppColors.white,
           elevation: elevation ?? 0,
           shape: RoundedRectangleBorder(
+            side: BorderSide(color: borderColor ?? Colors.transparent),
             borderRadius: BorderRadius.circular(borderRadius ?? 12.r),
           ),
         ),

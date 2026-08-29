@@ -188,5 +188,7 @@
     "signUp": "إنشاء حساب",
     "orSignInWith": "أو تسجيل الدخول باستخدام",
     "otpVerification": "التحقق من الرمز",
-    "otpVerificationDescription": "أدخل رمز التحقق المُرسل إلى بريدك الإلكتروني للمتابعة."
+    "otpVerificationDescription": "أدخل رمز التحقق المُرسل إلى بريدك الإلكتروني للمتابعة.",
+    "enterEmailPlease": "ادخل الإيميل من فضلك",
+    "emailRequired": "من فضلك أدخل البريد الإلكتروني"
 }

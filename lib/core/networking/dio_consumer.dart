@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:fix_now_team_2/core/networking/api_consumer.dart';
 import 'package:fix_now_team_2/core/networking/api_interceptors.dart';
-import 'package:fix_now_team_2/core/networking/endpoints.dart';
+import 'package:fix_now_team_2/core/networking/api_constants.dart';
 
 class DioConsumer implements ApiConsumer {
   final Dio dio;
   DioConsumer(this.dio) {
     dio.options = BaseOptions(
-      baseUrl: Endpoints.baseUrl,
+      baseUrl: ApiConstants.baseUrl,
       connectTimeout: const Duration(seconds: 10),
       receiveTimeout: const Duration(seconds: 10),
       sendTimeout: const Duration(seconds: 10),

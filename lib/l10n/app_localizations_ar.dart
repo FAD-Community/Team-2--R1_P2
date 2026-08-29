@@ -581,4 +581,10 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get otpVerificationDescription =>
       'أدخل رمز التحقق المُرسل إلى بريدك الإلكتروني للمتابعة.';
+
+  @override
+  String get enterEmailPlease => 'ادخل الإيميل من فضلك';
+
+  @override
+  String get emailRequired => 'من فضلك أدخل البريد الإلكتروني';
 }

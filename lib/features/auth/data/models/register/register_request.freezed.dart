@@ -13,42 +13,42 @@ part of 'register_request.dart';
 T _$identity<T>(T value) => value;
 
 /// @nodoc
-mixin _$RegisterRequestModel {
+mixin _$RegisterRequest {
 
- String get firstName; String get lastName; String get email; String get password; String get location; String get government; String get districtName;
-/// Create a copy of RegisterRequestModel
+ String get fullName; String get email; String get phoneNumber; String get password; int get role; String get governorate; String get area; DateTime get dateOfBirth;
+/// Create a copy of RegisterRequest
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
 @pragma('vm:prefer-inline')
-$RegisterRequestModelCopyWith<RegisterRequestModel> get copyWith => _$RegisterRequestModelCopyWithImpl<RegisterRequestModel>(this as RegisterRequestModel, _$identity);
+$RegisterRequestCopyWith<RegisterRequest> get copyWith => _$RegisterRequestCopyWithImpl<RegisterRequest>(this as RegisterRequest, _$identity);
 
-  /// Serializes this RegisterRequestModel to a JSON map.
+  /// Serializes this RegisterRequest to a JSON map.
   Map<String, dynamic> toJson();
 
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is RegisterRequestModel&&(identical(other.firstName, firstName) || other.firstName == firstName)&&(identical(other.lastName, lastName) || other.lastName == lastName)&&(identical(other.email, email) || other.email == email)&&(identical(other.password, password) || other.password == password)&&(identical(other.location, location) || other.location == location)&&(identical(other.government, government) || other.government == government)&&(identical(other.districtName, districtName) || other.districtName == districtName));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is RegisterRequest&&(identical(other.fullName, fullName) || other.fullName == fullName)&&(identical(other.email, email) || other.email == email)&&(identical(other.phoneNumber, phoneNumber) || other.phoneNumber == phoneNumber)&&(identical(other.password, password) || other.password == password)&&(identical(other.role, role) || other.role == role)&&(identical(other.governorate, governorate) || other.governorate == governorate)&&(identical(other.area, area) || other.area == area)&&(identical(other.dateOfBirth, dateOfBirth) || other.dateOfBirth == dateOfBirth));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,firstName,lastName,email,password,location,government,districtName);
+int get hashCode => Object.hash(runtimeType,fullName,email,phoneNumber,password,role,governorate,area,dateOfBirth);
 
 @override
 String toString() {
-  return 'RegisterRequestModel(firstName: $firstName, lastName: $lastName, email: $email, password: $password, location: $location, government: $government, districtName: $districtName)';
+  return 'RegisterRequest(fullName: $fullName, email: $email, phoneNumber: $phoneNumber, password: $password, role: $role, governorate: $governorate, area: $area, dateOfBirth: $dateOfBirth)';
 }
 
 
 }
 
 /// @nodoc
-abstract mixin class $RegisterRequestModelCopyWith<$Res>  {
-  factory $RegisterRequestModelCopyWith(RegisterRequestModel value, $Res Function(RegisterRequestModel) _then) = _$RegisterRequestModelCopyWithImpl;
+abstract mixin class $RegisterRequestCopyWith<$Res>  {
+  factory $RegisterRequestCopyWith(RegisterRequest value, $Res Function(RegisterRequest) _then) = _$RegisterRequestCopyWithImpl;
 @useResult
 $Res call({
- String firstName, String lastName, String email, String password, String location, String government, String districtName
+ String fullName, String email, String phoneNumber, String password, int role, String governorate, String area, DateTime dateOfBirth
 });
 
 
@@ -56,33 +56,34 @@ $Res call({
 
 }
 /// @nodoc
-class _$RegisterRequestModelCopyWithImpl<$Res>
-    implements $RegisterRequestModelCopyWith<$Res> {
-  _$RegisterRequestModelCopyWithImpl(this._self, this._then);
+class _$RegisterRequestCopyWithImpl<$Res>
+    implements $RegisterRequestCopyWith<$Res> {
+  _$RegisterRequestCopyWithImpl(this._self, this._then);
 
-  final RegisterRequestModel _self;
-  final $Res Function(RegisterRequestModel) _then;
+  final RegisterRequest _self;
+  final $Res Function(RegisterRequest) _then;
 
-/// Create a copy of RegisterRequestModel
+/// Create a copy of RegisterRequest
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? firstName = null,Object? lastName = null,Object? email = null,Object? password = null,Object? location = null,Object? government = null,Object? districtName = null,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? fullName = null,Object? email = null,Object? phoneNumber = null,Object? password = null,Object? role = null,Object? governorate = null,Object? area = null,Object? dateOfBirth = null,}) {
   return _then(_self.copyWith(
-firstName: null == firstName ? _self.firstName : firstName // ignore: cast_nullable_to_non_nullable
-as String,lastName: null == lastName ? _self.lastName : lastName // ignore: cast_nullable_to_non_nullable
+fullName: null == fullName ? _self.fullName : fullName // ignore: cast_nullable_to_non_nullable
 as String,email: null == email ? _self.email : email // ignore: cast_nullable_to_non_nullable
+as String,phoneNumber: null == phoneNumber ? _self.phoneNumber : phoneNumber // ignore: cast_nullable_to_non_nullable
 as String,password: null == password ? _self.password : password // ignore: cast_nullable_to_non_nullable
-as String,location: null == location ? _self.location : location // ignore: cast_nullable_to_non_nullable
-as String,government: null == government ? _self.government : government // ignore: cast_nullable_to_non_nullable
-as String,districtName: null == districtName ? _self.districtName : districtName // ignore: cast_nullable_to_non_nullable
-as String,
+as String,role: null == role ? _self.role : role // ignore: cast_nullable_to_non_nullable
+as int,governorate: null == governorate ? _self.governorate : governorate // ignore: cast_nullable_to_non_nullable
+as String,area: null == area ? _self.area : area // ignore: cast_nullable_to_non_nullable
+as String,dateOfBirth: null == dateOfBirth ? _self.dateOfBirth : dateOfBirth // ignore: cast_nullable_to_non_nullable
+as DateTime,
   ));
 }
 
 }
 
 
-/// Adds pattern-matching-related methods to [RegisterRequestModel].
-extension RegisterRequestModelPatterns on RegisterRequestModel {
+/// Adds pattern-matching-related methods to [RegisterRequest].
+extension RegisterRequestPatterns on RegisterRequest {
 /// A variant of `map` that fallback to returning `orElse`.
 ///
 /// It is equivalent to doing:
@@ -95,10 +96,10 @@ extension RegisterRequestModelPatterns on RegisterRequestModel {
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeMap<TResult extends Object?>(TResult Function( _RegisterRequestModel value)?  $default,{required TResult orElse(),}){
+@optionalTypeArgs TResult maybeMap<TResult extends Object?>(TResult Function( _RegisterRequest value)?  $default,{required TResult orElse(),}){
 final _that = this;
 switch (_that) {
-case _RegisterRequestModel() when $default != null:
+case _RegisterRequest() when $default != null:
 return $default(_that);case _:
   return orElse();
 
@@ -117,10 +118,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult map<TResult extends Object?>(TResult Function( _RegisterRequestModel value)  $default,){
+@optionalTypeArgs TResult map<TResult extends Object?>(TResult Function( _RegisterRequest value)  $default,){
 final _that = this;
 switch (_that) {
-case _RegisterRequestModel():
+case _RegisterRequest():
 return $default(_that);case _:
   throw StateError('Unexpected subclass');
 
@@ -138,10 +139,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>(TResult? Function( _RegisterRequestModel value)?  $default,){
+@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>(TResult? Function( _RegisterRequest value)?  $default,){
 final _that = this;
 switch (_that) {
-case _RegisterRequestModel() when $default != null:
+case _RegisterRequest() when $default != null:
 return $default(_that);case _:
   return null;
 
@@ -159,10 +160,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String firstName,  String lastName,  String email,  String password,  String location,  String government,  String districtName)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( String fullName,  String email,  String phoneNumber,  String password,  int role,  String governorate,  String area,  DateTime dateOfBirth)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
-case _RegisterRequestModel() when $default != null:
-return $default(_that.firstName,_that.lastName,_that.email,_that.password,_that.location,_that.government,_that.districtName);case _:
+case _RegisterRequest() when $default != null:
+return $default(_that.fullName,_that.email,_that.phoneNumber,_that.password,_that.role,_that.governorate,_that.area,_that.dateOfBirth);case _:
   return orElse();
 
 }
@@ -180,10 +181,10 @@ return $default(_that.firstName,_that.lastName,_that.email,_that.password,_that.
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String firstName,  String lastName,  String email,  String password,  String location,  String government,  String districtName)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( String fullName,  String email,  String phoneNumber,  String password,  int role,  String governorate,  String area,  DateTime dateOfBirth)  $default,) {final _that = this;
 switch (_that) {
-case _RegisterRequestModel():
-return $default(_that.firstName,_that.lastName,_that.email,_that.password,_that.location,_that.government,_that.districtName);case _:
+case _RegisterRequest():
+return $default(_that.fullName,_that.email,_that.phoneNumber,_that.password,_that.role,_that.governorate,_that.area,_that.dateOfBirth);case _:
   throw StateError('Unexpected subclass');
 
 }
@@ -200,10 +201,10 @@ return $default(_that.firstName,_that.lastName,_that.email,_that.password,_that.
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String firstName,  String lastName,  String email,  String password,  String location,  String government,  String districtName)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( String fullName,  String email,  String phoneNumber,  String password,  int role,  String governorate,  String area,  DateTime dateOfBirth)?  $default,) {final _that = this;
 switch (_that) {
-case _RegisterRequestModel() when $default != null:
-return $default(_that.firstName,_that.lastName,_that.email,_that.password,_that.location,_that.government,_that.districtName);case _:
+case _RegisterRequest() when $default != null:
+return $default(_that.fullName,_that.email,_that.phoneNumber,_that.password,_that.role,_that.governorate,_that.area,_that.dateOfBirth);case _:
   return null;
 
 }
@@ -214,52 +215,53 @@ return $default(_that.firstName,_that.lastName,_that.email,_that.password,_that.
 /// @nodoc
 @JsonSerializable()
 
-class _RegisterRequestModel implements RegisterRequestModel {
-  const _RegisterRequestModel({required this.firstName, required this.lastName, required this.email, required this.password, required this.location, required this.government, required this.districtName});
-  factory _RegisterRequestModel.fromJson(Map<String, dynamic> json) => _$RegisterRequestModelFromJson(json);
+class _RegisterRequest implements RegisterRequest {
+  const _RegisterRequest({required this.fullName, required this.email, required this.phoneNumber, required this.password, required this.role, required this.governorate, required this.area, required this.dateOfBirth});
+  factory _RegisterRequest.fromJson(Map<String, dynamic> json) => _$RegisterRequestFromJson(json);
 
-@override final  String firstName;
-@override final  String lastName;
+@override final  String fullName;
 @override final  String email;
+@override final  String phoneNumber;
 @override final  String password;
-@override final  String location;
-@override final  String government;
-@override final  String districtName;
+@override final  int role;
+@override final  String governorate;
+@override final  String area;
+@override final  DateTime dateOfBirth;
 
-/// Create a copy of RegisterRequestModel
+/// Create a copy of RegisterRequest
 /// with the given fields replaced by the non-null parameter values.
 @override @JsonKey(includeFromJson: false, includeToJson: false)
 @pragma('vm:prefer-inline')
-_$RegisterRequestModelCopyWith<_RegisterRequestModel> get copyWith => __$RegisterRequestModelCopyWithImpl<_RegisterRequestModel>(this, _$identity);
+_$RegisterRequestCopyWith<_RegisterRequest> get copyWith => __$RegisterRequestCopyWithImpl<_RegisterRequest>(this, _$identity);
 
 @override
 Map<String, dynamic> toJson() {
-  return _$RegisterRequestModelToJson(this, );
+  return _$RegisterRequestToJson(this, );
 }
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RegisterRequestModel&&(identical(other.firstName, firstName) || other.firstName == firstName)&&(identical(other.lastName, lastName) || other.lastName == lastName)&&(identical(other.email, email) || other.email == email)&&(identical(other.password, password) || other.password == password)&&(identical(other.location, location) || other.location == location)&&(identical(other.government, government) || other.government == government)&&(identical(other.districtName, districtName) || other.districtName == districtName));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _RegisterRequest&&(identical(other.fullName, fullName) || other.fullName == fullName)&&(identical(other.email, email) || other.email == email)&&(identical(other.phoneNumber, phoneNumber) || other.phoneNumber == phoneNumber)&&(identical(other.password, password) || other.password == password)&&(identical(other.role, role) || other.role == role)&&(identical(other.governorate, governorate) || other.governorate == governorate)&&(identical(other.area, area) || other.area == area)&&(identical(other.dateOfBirth, dateOfBirth) || other.dateOfBirth == dateOfBirth));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,firstName,lastName,email,password,location,government,districtName);
+int get hashCode => Object.hash(runtimeType,fullName,email,phoneNumber,password,role,governorate,area,dateOfBirth);
 
 @override
 String toString() {
-  return 'RegisterRequestModel(firstName: $firstName, lastName: $lastName, email: $email, password: $password, location: $location, government: $government, districtName: $districtName)';
+  return 'RegisterRequest(fullName: $fullName, email: $email, phoneNumber: $phoneNumber, password: $password, role: $role, governorate: $governorate, area: $area, dateOfBirth: $dateOfBirth)';
 }
 
 
 }
 
 /// @nodoc
-abstract mixin class _$RegisterRequestModelCopyWith<$Res> implements $RegisterRequestModelCopyWith<$Res> {
-  factory _$RegisterRequestModelCopyWith(_RegisterRequestModel value, $Res Function(_RegisterRequestModel) _then) = __$RegisterRequestModelCopyWithImpl;
+abstract mixin class _$RegisterRequestCopyWith<$Res> implements $RegisterRequestCopyWith<$Res> {
+  factory _$RegisterRequestCopyWith(_RegisterRequest value, $Res Function(_RegisterRequest) _then) = __$RegisterRequestCopyWithImpl;
 @override @useResult
 $Res call({
- String firstName, String lastName, String email, String password, String location, String government, String districtName
+ String fullName, String email, String phoneNumber, String password, int role, String governorate, String area, DateTime dateOfBirth
 });
 
 
@@ -267,25 +269,26 @@ $Res call({
 
 }
 /// @nodoc
-class __$RegisterRequestModelCopyWithImpl<$Res>
-    implements _$RegisterRequestModelCopyWith<$Res> {
-  __$RegisterRequestModelCopyWithImpl(this._self, this._then);
+class __$RegisterRequestCopyWithImpl<$Res>
+    implements _$RegisterRequestCopyWith<$Res> {
+  __$RegisterRequestCopyWithImpl(this._self, this._then);
 
-  final _RegisterRequestModel _self;
-  final $Res Function(_RegisterRequestModel) _then;
+  final _RegisterRequest _self;
+  final $Res Function(_RegisterRequest) _then;
 
-/// Create a copy of RegisterRequestModel
+/// Create a copy of RegisterRequest
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? firstName = null,Object? lastName = null,Object? email = null,Object? password = null,Object? location = null,Object? government = null,Object? districtName = null,}) {
-  return _then(_RegisterRequestModel(
-firstName: null == firstName ? _self.firstName : firstName // ignore: cast_nullable_to_non_nullable
-as String,lastName: null == lastName ? _self.lastName : lastName // ignore: cast_nullable_to_non_nullable
+@override @pragma('vm:prefer-inline') $Res call({Object? fullName = null,Object? email = null,Object? phoneNumber = null,Object? password = null,Object? role = null,Object? governorate = null,Object? area = null,Object? dateOfBirth = null,}) {
+  return _then(_RegisterRequest(
+fullName: null == fullName ? _self.fullName : fullName // ignore: cast_nullable_to_non_nullable
 as String,email: null == email ? _self.email : email // ignore: cast_nullable_to_non_nullable
+as String,phoneNumber: null == phoneNumber ? _self.phoneNumber : phoneNumber // ignore: cast_nullable_to_non_nullable
 as String,password: null == password ? _self.password : password // ignore: cast_nullable_to_non_nullable
-as String,location: null == location ? _self.location : location // ignore: cast_nullable_to_non_nullable
-as String,government: null == government ? _self.government : government // ignore: cast_nullable_to_non_nullable
-as String,districtName: null == districtName ? _self.districtName : districtName // ignore: cast_nullable_to_non_nullable
-as String,
+as String,role: null == role ? _self.role : role // ignore: cast_nullable_to_non_nullable
+as int,governorate: null == governorate ? _self.governorate : governorate // ignore: cast_nullable_to_non_nullable
+as String,area: null == area ? _self.area : area // ignore: cast_nullable_to_non_nullable
+as String,dateOfBirth: null == dateOfBirth ? _self.dateOfBirth : dateOfBirth // ignore: cast_nullable_to_non_nullable
+as DateTime,
   ));
 }
 

@@ -1,14 +1,16 @@
-import 'package:fix_now_team_2/core/theme/app_colors.dart';
 import 'package:fix_now_team_2/features/onboarding/data/model/onboarding_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnboardingItem extends StatelessWidget {
   final OnboardingModel onboardingModel;
+
   const OnboardingItem({super.key, required this.onboardingModel});
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return SafeArea(
       child: Column(
         children: [
@@ -20,14 +22,14 @@ class OnboardingItem extends StatelessWidget {
               child: Image.asset(onboardingModel.image, fit: BoxFit.contain),
             ),
           ),
+
           SizedBox(height: 25.h),
-          // Content
+
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 28.w),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // Circular Icon
                 Container(
                   width: 50.w,
                   height: 50.w,
@@ -37,7 +39,7 @@ class OnboardingItem extends StatelessWidget {
                   ),
                   child: Icon(
                     onboardingModel.icon,
-                    color: AppColors.white,
+                    color: theme.colorScheme.onPrimary,
                     size: 27.sp,
                   ),
                 ),
@@ -48,20 +50,18 @@ class OnboardingItem extends StatelessWidget {
                     children: [
                       Text(
                         onboardingModel.title,
-                        style: TextStyle(
+                        style: theme.textTheme.titleLarge?.copyWith(
                           fontSize: 23.sp,
                           fontWeight: FontWeight.w700,
-                          color: AppColors.textPrimary,
                         ),
                       ),
                       SizedBox(height: 5.h),
                       Text(
                         onboardingModel.description,
-                        style: TextStyle(
+                        style: theme.textTheme.bodyMedium?.copyWith(
                           fontSize: 16.sp,
                           height: 1.25,
                           fontWeight: FontWeight.w400,
-                          color: AppColors.textSecondary,
                         ),
                       ),
                     ],

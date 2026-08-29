@@ -10,6 +10,7 @@ class Routes {
   static const String otpVerification = '/otpVerification';
   static const String authenticationScreen = '/authenticationScreen';
   static const String chatScreen = '/chatScreen';
+  static const String enterEmail = '/enterEmail';
 
   // Customer
   // =========================

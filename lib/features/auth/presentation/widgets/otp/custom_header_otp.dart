@@ -17,7 +17,7 @@ class CustomHeaderOtp extends StatelessWidget {
           Text(
             s.otpVerification,
             style: AppTextStyle.font24SemiBoldPrimary.copyWith(
-              color: AppColors.black,
+              color: Theme.of(context).textTheme.bodyMedium?.color,
             ),
           ),
           10.hSpace,

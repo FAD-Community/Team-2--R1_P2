@@ -13,6 +13,11 @@ class AppTextStyle {
     color: Color(0xff0A0A29),
     fontWeight: FontWeight.w500,
   );
+  static TextStyle font28SemiBoldBlack = TextStyle(
+    fontSize: 28.sp,
+    color: Color(0xff0A0A29),
+    fontWeight: FontWeight.w500,
+  );
 
   static TextStyle font20MediumBlackOpacity = TextStyle(
     fontSize: 20.sp,

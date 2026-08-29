@@ -24,6 +24,7 @@ class CustomResendCode extends StatelessWidget {
         Text(
           s.didntReceiveCode,
           style: AppTextStyle.font12RegularBlack.copyWith(
+            color: Theme.of(context).textTheme.bodyMedium?.color,
             fontSize: 14.sp,
           ),
         ),

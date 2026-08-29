@@ -21,6 +21,7 @@ class CustomDonotHaveAccount extends StatelessWidget {
             Text(
               s.dontHaveAccount,
               style: AppTextStyle.font12MediumBlack.copyWith(
+                color: Theme.of(context).textTheme.bodyMedium?.color,
                 fontWeight: FontWeight.w400,
                 fontSize: 14.sp,
               ),

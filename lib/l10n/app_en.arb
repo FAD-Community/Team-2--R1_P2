@@ -188,5 +188,7 @@
   "signUp": "Sign Up",
   "orSignInWith": "Or Sign in With",
   "otpVerification": "OTP Verification",
-  "otpVerificationDescription": "Enter the verification code sent \n to your Email to continue."
+  "otpVerificationDescription": "Enter the verification code sent \n to your Email to continue.",
+  "enterEmailPlease": "Please enter your email",
+  "emailRequired": "Please enter your email"
 }

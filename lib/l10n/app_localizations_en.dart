@@ -584,4 +584,10 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get otpVerificationDescription =>
       'Enter the verification code sent \n to your Email to continue.';
+
+  @override
+  String get enterEmailPlease => 'Please enter your email';
+
+  @override
+  String get emailRequired => 'Please enter your email';
 }

@@ -1231,6 +1231,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Enter the verification code sent \n to your Email to continue.'**
   String get otpVerificationDescription;
+
+  /// No description provided for @enterEmailPlease.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your email'**
+  String get enterEmailPlease;
+
+  /// No description provided for @emailRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your email'**
+  String get emailRequired;
 }
 
 class _AppLocalizationsDelegate
