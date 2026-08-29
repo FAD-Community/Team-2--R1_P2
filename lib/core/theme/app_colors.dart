@@ -29,6 +29,8 @@ abstract final class AppColors {
   static const Color border = Color(0xFFE2E8F0);
   static const Color divider = Color(0xFFE5E7EB);
   static const Color borderTextField = Color(0xFFB1B2FC);
+  static const Color line = Color(0xFFEDEDED);
+
 
   // Status
   static const Color success = Color(0xFF16A34A);
