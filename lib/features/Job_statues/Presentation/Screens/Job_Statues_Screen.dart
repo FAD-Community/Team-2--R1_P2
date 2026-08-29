@@ -1,6 +1,6 @@
 import 'package:fix_now_team_2/Features/Job_statues/presentation/widgets/Job_Statues_Screen_body.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class JobStatuesScreen extends StatelessWidget {

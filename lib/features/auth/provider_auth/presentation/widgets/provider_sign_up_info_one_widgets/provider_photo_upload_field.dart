@@ -8,11 +8,7 @@ class ProviderPhotoUploadField extends StatelessWidget {
   final String text;
   final VoidCallback? onTap;
 
-  const ProviderPhotoUploadField({
-    super.key,
-    required this.text,
-    this.onTap,
-  });
+  const ProviderPhotoUploadField({super.key, required this.text, this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -26,9 +22,7 @@ class ProviderPhotoUploadField extends StatelessWidget {
         decoration: BoxDecoration(
           color: AppColors.white,
           borderRadius: BorderRadius.circular(10.r),
-          border: Border.all(
-            color: AppColors.primaryLight,
-          ),
+          border: Border.all(color: AppColors.primaryLight),
         ),
         child: Row(
           children: [
@@ -36,7 +30,7 @@ class ProviderPhotoUploadField extends StatelessWidget {
               height: 48.h,
               width: 48.w,
               decoration: BoxDecoration(
-                color: AppColors.scaffoldBackground,
+                color: Theme.of(context).scaffoldBackgroundColor,
                 borderRadius: BorderRadius.circular(8.r),
               ),
               child: Padding(
@@ -48,12 +42,8 @@ class ProviderPhotoUploadField extends StatelessWidget {
               ),
             ),
             SizedBox(width: 16.w),
-
             Expanded(
-              child: Text(
-                text,
-                style: AppTextStyle.font16MediumLabelGrey,
-              ),
+              child: Text(text, style: AppTextStyle.font16MediumLabelGrey),
             ),
           ],
         ),

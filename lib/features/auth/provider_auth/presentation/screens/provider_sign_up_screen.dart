@@ -1,8 +1,8 @@
+import 'package:fix_now_team_2/core/widgets/custom_text_form_field.dart';
 import 'package:fix_now_team_2/features/auth/provider_auth/presentation/widgets/provider_sign_up_widgets/provider_sign_up_progress_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../../../core/shared_widgets/custom_text_form_field.dart';
 import '../../../../../core/theme/app_colors.dart';
 import '../../../../../core/widgets/custom_elevated_button.dart';
 import '../widgets/provider_sign_up_widgets/provider_sign_up_header.dart';
@@ -168,7 +168,8 @@ class _ProviderSignUpScreenState extends State<ProviderSignUpScreen> {
                   SizedBox(
                     width: 176.w,
                     child: CustomElevatedButton(
-                        child:Text("Next"), onPressed: () {}
+                      child: Text("Next"),
+                      onPressed: () {},
                     ),
                   ),
                 ],

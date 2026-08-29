@@ -29,7 +29,7 @@ class StatusIndicator extends StatelessWidget {
               border: Border.all(
                 color: isCompleted || isCurrent
                     ? AppColors.primary
-                    : AppColors.primary.withOpacity(0.4),
+                    : AppColors.primary.withValues(alpha: 0.4),
                 width: 1,
               ),
             ),
@@ -48,12 +48,11 @@ class StatusIndicator extends StatelessWidget {
                   )
                 : null,
           ),
-
           if (!isLast)
             Expanded(
               child: Container(
                 width: 1,
-                color: AppColors.primary.withOpacity(0.25),
+                color: AppColors.primary..withValues(alpha: 0.25),
               ),
             ),
         ],

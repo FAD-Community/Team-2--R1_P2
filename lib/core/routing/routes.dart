@@ -6,8 +6,11 @@ class Routes {
   static const String onboardingScreen = '/onboardingScreen';
   static const String accountTypeScreen = '/accountTypeScreen';
   static const String signInScreen = '/signInScreen';
+  static const String resetPassword = '/resetPassword';
+  static const String otpVerification = '/otpVerification';
   static const String authenticationScreen = '/authenticationScreen';
   static const String chatScreen = '/chatScreen';
+  static const String enterEmail = '/enterEmail';
 
   // Customer
   // =========================

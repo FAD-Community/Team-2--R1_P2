@@ -1,12 +1,12 @@
 import 'package:fix_now_team_2/core/theme/app_colors.dart';
 import 'package:fix_now_team_2/core/theme/app_text_styles.dart';
 import 'package:fix_now_team_2/core/widgets/custom_elevated_button.dart';
+import 'package:fix_now_team_2/core/widgets/custom_text_form_field.dart';
 import 'package:fix_now_team_2/features/auth/provider_auth/presentation/widgets/provider_sign_up_info_one_widgets/provider_sign_up_progress_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../../../../core/shared_widgets/custom_text_form_field.dart';
 import '../widgets/provider_sign_up_info_one_widgets/provider_location_dropdown.dart';
 import '../widgets/provider_sign_up_info_one_widgets/provider_photo_upload_field.dart';
 import '../widgets/provider_sign_up_info_one_widgets/provider_service_area.dart';
@@ -39,7 +39,7 @@ class _ProviderSignUpInfoOneScreenState
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.scaffoldBackground,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       body: SafeArea(
         child: SingleChildScrollView(
           padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 24.h),

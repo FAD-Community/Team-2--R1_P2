@@ -32,7 +32,7 @@ class CustomSplashPhoto extends StatelessWidget {
             Text(
               "Fix",
               style: TextStyle(
-                color: AppColors.purpleLight,
+                color: AppColors.primaryLight,
                 fontSize: 40.sp,
                 fontWeight: FontWeight.bold,
               ),
@@ -41,7 +41,7 @@ class CustomSplashPhoto extends StatelessWidget {
             Text(
               "Now",
               style: TextStyle(
-                color: AppColors.purple,
+                color: AppColors.primary,
                 fontSize: 40.sp,
                 fontWeight: FontWeight.bold,
               ),

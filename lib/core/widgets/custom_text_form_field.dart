@@ -5,6 +5,7 @@ import '../theme/app_text_styles.dart';
 
 class CustomTextFormField extends StatelessWidget {
   final String hintText;
+  final String? label;
   final Color fillColor;
   final Color? textColor;
   final Color borderColor;
@@ -35,6 +36,7 @@ class CustomTextFormField extends StatelessWidget {
     this.prefixIcon,
     this.validator,
     this.onChanged,
+    this.label,
   });
 
   @override
@@ -45,11 +47,9 @@ class CustomTextFormField extends StatelessWidget {
       obscureText: obscureText,
       validator: validator,
       onChanged: onChanged,
-      style: textStyle ?? TextStyle(
-        color: textColor,
-        fontSize: 14.sp,
-      ),
+      style: textStyle ?? TextStyle(color: textColor, fontSize: 14.sp),
       decoration: InputDecoration(
+        labelText: label,
         filled: true,
         fillColor: fillColor,
         hintText: hintText,
@@ -58,17 +58,19 @@ class CustomTextFormField extends StatelessWidget {
         suffixIcon: suffixIcon,
 
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(10.r),
+          borderRadius: BorderRadius.circular(12.r),
           borderSide: BorderSide(color: borderColor),
         ),
 
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(10.r),
+          borderRadius: BorderRadius.circular(12.r),
+
           borderSide: BorderSide(color: borderColor),
         ),
 
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(10.r),
+          borderRadius: BorderRadius.circular(12.r),
+
           borderSide: BorderSide(color: focusedBorderColor),
         ),
       ),

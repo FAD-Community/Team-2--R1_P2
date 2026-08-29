@@ -12,7 +12,7 @@ class StatusLabel extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 5.w, vertical: 3.h),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.1),
+        color: color..withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(3.r),
       ),
       child: Text(

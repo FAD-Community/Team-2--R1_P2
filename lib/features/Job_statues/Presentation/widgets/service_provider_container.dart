@@ -1,7 +1,6 @@
 import 'package:fix_now_team_2/core/theme/app_colors.dart';
 import 'package:fix_now_team_2/core/theme/app_text_styles.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ServiceProviderContinar extends StatelessWidget {
@@ -47,7 +46,7 @@ class ServiceProviderContinar extends StatelessWidget {
                   Icon(
                     size: 20,
                     Icons.star_border_outlined,
-                    color: AppColors.primaryDark,
+                    color: AppColors.primary,
                   ),
                   SizedBox(width: 4.w),
                   Text(

@@ -1201,6 +1201,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'We connect you with nearby providers who respond quickly and arrive on time.'**
   String get fastResponseDescription;
+
+  /// No description provided for @agreeTo.
+  ///
+  /// In en, this message translates to:
+  /// **'I agree to '**
+  String get agreeTo;
+
+  /// No description provided for @signUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign Up'**
+  String get signUp;
+
+  /// No description provided for @orSignInWith.
+  ///
+  /// In en, this message translates to:
+  /// **'Or Sign in With'**
+  String get orSignInWith;
+
+  /// No description provided for @otpVerification.
+  ///
+  /// In en, this message translates to:
+  /// **'OTP Verification'**
+  String get otpVerification;
+
+  /// No description provided for @otpVerificationDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the verification code sent \n to your Email to continue.'**
+  String get otpVerificationDescription;
+
+  /// No description provided for @enterEmailPlease.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your email'**
+  String get enterEmailPlease;
+
+  /// No description provided for @emailRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your email'**
+  String get emailRequired;
 }
 
 class _AppLocalizationsDelegate
