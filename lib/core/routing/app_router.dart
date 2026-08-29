@@ -6,6 +6,7 @@ import 'package:fix_now_team_2/features/splash/presentation/screens/splash_scree
 import 'package:flutter/material.dart';
 
 import '../../features/auth/provider_auth/presentation/screens/provider_sign_up_info_one_screen.dart';
+import '../../features/auth/provider_auth/presentation/screens/provider_sign_up_info_two_screen.dart';
 import 'routes.dart';
 
 class AppRouter {
@@ -24,6 +25,9 @@ class AppRouter {
 
       case Routes.providerSignUpInfoOneScreen:
         return MaterialPageRoute(builder: (_) => const ProviderSignUpInfoOneScreen());
+
+      case Routes.providerSignUpInfoTwoScreen:
+        return MaterialPageRoute(builder: (_) => const ProviderSignUpInfoTwoScreen());
       case Routes.jobDetailsScreen:
         return MaterialPageRoute(builder: (_) => const JobStatuesScreen());
 
