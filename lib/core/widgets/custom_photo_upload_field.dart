@@ -36,7 +36,7 @@ class CustomPhotoUploadField extends StatelessWidget {
               height: 48.h,
               width: 48.w,
               decoration: BoxDecoration(
-                color: AppColors.scaffoldBackground,
+                color: AppColors.primaryLight,
                 borderRadius: BorderRadius.circular(8.r),
               ),
               child: Padding(

@@ -68,7 +68,6 @@ dependencies:
 
   # Freezed
   freezed_annotation: ^3.1.0
-  flutter_svg: ^2.3.0
   pinput: ^6.0.2
 
 
