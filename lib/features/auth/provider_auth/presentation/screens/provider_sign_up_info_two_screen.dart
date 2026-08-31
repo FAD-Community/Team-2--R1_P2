@@ -29,7 +29,7 @@ class _ProviderSignUpInfoTwoScreenState
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     // backgroundColor: AppColors.scaffoldBackground,
+      backgroundColor: AppColors.backgroundScaffold,
       body: SafeArea(
         child: Stack(
           children: [
