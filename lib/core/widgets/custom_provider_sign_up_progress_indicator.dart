@@ -33,7 +33,7 @@ class CustomProviderSignUpProgressIndicator extends StatelessWidget {
         shape: BoxShape.circle,
         color: isActive
             ? AppColors.primary
-            : AppColors.purpleLight,
+            : AppColors.primaryLight,
       ),
     );
   }
