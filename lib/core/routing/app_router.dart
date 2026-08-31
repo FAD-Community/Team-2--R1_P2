@@ -39,6 +39,9 @@ class AppRouter {
 
       case Routes.providerSignUpInfoTwoScreen:
         return MaterialPageRoute(builder: (_) => const ProviderSignUpInfoTwoScreen());
+      case Routes.verificationStatusScreen:
+        return MaterialPageRoute(builder: (_) => const ProviderSignUpInfoTwoScreen());
+
       case Routes.jobDetailsScreen:
         return MaterialPageRoute(builder: (_) => const JobStatuesScreen());
       case Routes.enterEmail:
