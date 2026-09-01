@@ -63,7 +63,7 @@ class _OnboardingScreenViewState extends State<OnboardingScreenView> {
       ),
     ];
     return Scaffold(
-      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      backgroundColor: AppColors.backgroundScaffold,
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 16.w),

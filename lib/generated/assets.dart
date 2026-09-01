@@ -25,6 +25,6 @@ class Assets {
   static const String onboardingThree = 'assets/images/onboarding/three.png';
   static const String onboardingTwo = 'assets/images/onboarding/two.png';
   static const String providerProviderSignUpBackground = 'assets/images/provider/provider_sign_up_background.png';
-  static const String providerUnderReviewPic = 'assets/images/provider/under_review_pic.png';
+  static const String providerWaitingApprove = 'assets/images/provider/waiting_approve.png';
 
 }
