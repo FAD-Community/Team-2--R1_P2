@@ -1,5 +1,6 @@
 // import 'package:fix_now_team_2/core/routing/routes.dart';
 import 'package:fix_now_team_2/core/routing/routes.dart';
+import 'package:fix_now_team_2/core/theme/app_colors.dart';
 import 'package:fix_now_team_2/features/splash/presentation/widgets/custom_splash_photo.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +24,7 @@ class _SplashScreenViewState extends State<SplashScreenView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      backgroundColor: AppColors.backgroundScaffold, //Theme.of(context).scaffoldBackgroundColor,
       body: CustomSplashPhoto(),
     );
   }

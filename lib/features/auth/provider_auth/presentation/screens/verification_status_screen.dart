@@ -20,9 +20,14 @@ class VerificationStatusScreen extends StatelessWidget {
               padding:  EdgeInsets.symmetric(horizontal: 19.w),
               child: Column(
                 children: [
-                 Image.asset(
-                   "assets/images/provider/under_review_pic.png",
-                    height: 352.h,
+                 Container(
+                   height: 352.h,
+                   decoration: BoxDecoration(
+                     color: AppColors.backgroundScaffold
+                   ),
+                   child: Image.asset(
+                     "assets/images/provider/waiting_approve.png",
+                   ),
                  ),
                   SizedBox(
                     height: 24.h,
