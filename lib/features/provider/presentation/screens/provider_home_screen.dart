@@ -1,3 +1,4 @@
+import 'package:fix_now_team_2/core/widgets/custom_search_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -20,6 +21,14 @@ class ProviderHomeScreen extends StatelessWidget {
           child: Column(
             children: [
               const ProviderHomeHeader(),
+               SizedBox(
+                height: 12.h,
+              ),
+
+              const CustomSearchField(
+                hintText: 'Search for services',
+              ),
+
             ],
           ),
         ),
