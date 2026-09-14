@@ -18,6 +18,7 @@ class Assets {
   static const String iconsLocationIcon = 'assets/icons/location_icon.svg';
   static const String iconsOnlineBankIcon = 'assets/icons/online_bank_icon.svg';
   static const String iconsPendingIcon = 'assets/icons/pending_icon.svg';
+  static const String iconsPowerFailureIcon = 'assets/icons/power_failure_icon.svg';
   static const String iconsProviderChatIcon = 'assets/icons/provider_chat_icon.svg';
   static const String iconsProviderHomeIcon = 'assets/icons/provider_home_icon.svg';
   static const String iconsProviderProfileIcon = 'assets/icons/provider_profile_icon.svg';
@@ -25,6 +26,7 @@ class Assets {
   static const String iconsRequestsIcon = 'assets/icons/requests_icon.svg';
   static const String iconsUpcomingIcon = 'assets/icons/upcoming_icon.svg';
   static const String iconsWalletIcon = 'assets/icons/wallet_icon.svg';
+  static const String iconsWaterLeakageIcon = 'assets/icons/water_leakage_icon.svg';
   static const String imagesBackground = 'assets/images/background.png';
   static const String imagesPesonImage = 'assets/images/peson_image.avif';
   static const String imagesSplash = 'assets/images/splash.png';

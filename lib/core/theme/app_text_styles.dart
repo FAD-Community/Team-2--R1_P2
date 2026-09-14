@@ -46,6 +46,11 @@ class AppTextStyle {
     color: Color(0xff555555),
     fontWeight: FontWeight.normal,
   );
+  static TextStyle font18MediumOffWhite = TextStyle(
+    fontSize: 18.sp,
+    color: Color(0xffF2F2F2),
+    fontWeight: FontWeight.w500,
+  );
 
   static TextStyle font16MediumLabelGrey = TextStyle(
     fontSize: 16.sp,
