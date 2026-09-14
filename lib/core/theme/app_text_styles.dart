@@ -62,6 +62,11 @@ class AppTextStyle {
     color: Color(0xff4A4A4A),
     fontWeight: FontWeight.w500,
   );
+  static TextStyle font14MediumTextField = TextStyle(
+    fontSize: 14.sp,
+    color: Color(0xff33346E),
+    fontWeight: FontWeight.w500,
+  );
   static TextStyle font16SemiBoldWhite = TextStyle(
     fontSize: 16.sp,
     color: Colors.white,

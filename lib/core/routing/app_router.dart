@@ -9,6 +9,7 @@ import 'package:fix_now_team_2/Features/Job_statues/Presentation/Screens/Job_Sta
 import 'package:fix_now_team_2/features/auth/provider_auth/presentation/screens/verification_status_screen.dart';
 
 import 'package:fix_now_team_2/features/onboarding/presentation/screens/onboarding_screen_view.dart';
+import 'package:fix_now_team_2/features/provider/presentation/screens/provider_bottom_nav_screen.dart';
 import 'package:fix_now_team_2/features/splash/presentation/screens/splash_screen_view.dart';
 import 'package:flutter/material.dart';
 
@@ -42,6 +43,8 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const ProviderSignUpInfoTwoScreen());
       case Routes.verificationStatusScreen:
         return MaterialPageRoute(builder: (_) => const VerificationStatusScreen());
+      case Routes.providerBottomNavBarScreen:
+        return MaterialPageRoute(builder: (_) => const ProviderBottomNavScreen());
 
       case Routes.jobDetailsScreen:
         return MaterialPageRoute(builder: (_) => const JobStatuesScreen());

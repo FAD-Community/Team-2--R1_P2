@@ -21,7 +21,7 @@ class FixNow extends StatelessWidget {
         localizationsDelegates: AppLocalizations.localizationsDelegates,
         supportedLocales: AppLocalizations.supportedLocales,
         debugShowCheckedModeBanner: false,
-        initialRoute: Routes.onboardingScreen,
+        initialRoute: Routes.providerBottomNavBarScreen,
         onGenerateRoute: AppRouter.onGenerateRoute,
       ),
     );
