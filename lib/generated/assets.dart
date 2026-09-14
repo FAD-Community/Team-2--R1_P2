@@ -22,6 +22,8 @@ class Assets {
   static const String iconsProviderHomeIcon = 'assets/icons/provider_home_icon.svg';
   static const String iconsProviderProfileIcon = 'assets/icons/provider_profile_icon.svg';
   static const String iconsProviderRequestIcon = 'assets/icons/provider_request_icon.svg';
+  static const String iconsRequestsIcon = 'assets/icons/requests_icon.svg';
+  static const String iconsUpcomingIcon = 'assets/icons/upcoming_icon.svg';
   static const String iconsWalletIcon = 'assets/icons/wallet_icon.svg';
   static const String imagesBackground = 'assets/images/background.png';
   static const String imagesPesonImage = 'assets/images/peson_image.avif';

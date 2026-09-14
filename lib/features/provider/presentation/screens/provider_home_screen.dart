@@ -1,8 +1,10 @@
 import 'package:fix_now_team_2/core/widgets/custom_search_field.dart';
+import 'package:fix_now_team_2/features/provider/presentation/widgets/provider_home/provider_overview_section.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../core/theme/app_colors.dart';
+import '../widgets/provider_home/provider_availability_section.dart';
 import '../widgets/provider_home/provider_home_header.dart';
 
 class ProviderHomeScreen extends StatelessWidget {
@@ -28,6 +30,18 @@ class ProviderHomeScreen extends StatelessWidget {
               const CustomSearchField(
                 hintText: 'Search for services',
               ),
+
+              SizedBox(
+                height: 24.h,
+              ),
+
+              ProviderAvailabilitySection(),
+
+              SizedBox(
+                height: 24.h,
+              ),
+
+              ProviderOverviewSection(),
 
             ],
           ),
