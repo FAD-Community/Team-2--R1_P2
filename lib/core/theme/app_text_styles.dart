@@ -77,6 +77,11 @@ class AppTextStyle {
     color: AppColors.primary,
     fontWeight: FontWeight.w500,
   );
+  static TextStyle font16RegularGrey = TextStyle(
+    fontSize: 16.sp,
+    color: Color(0xff555555),
+    fontWeight: FontWeight.normal,
+  );
 
   static TextStyle font24SemiBoldPrimary = TextStyle(
     fontSize: 24.sp,
