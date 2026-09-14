@@ -6,8 +6,10 @@ import 'package:fix_now_team_2/features/auth/presentation/screens/sign_in_view.d
 import 'package:fix_now_team_2/features/account_type/presentation/screens/account_type_screen.dart';
 import 'package:fix_now_team_2/features/auth/provider_auth/presentation/screens/provider_sign_up_screen.dart';
 import 'package:fix_now_team_2/Features/Job_statues/Presentation/Screens/Job_Statues_Screen.dart';
+import 'package:fix_now_team_2/features/auth/provider_auth/presentation/screens/verification_status_screen.dart';
 
 import 'package:fix_now_team_2/features/onboarding/presentation/screens/onboarding_screen_view.dart';
+import 'package:fix_now_team_2/features/provider/presentation/screens/provider_bottom_nav_screen.dart';
 import 'package:fix_now_team_2/features/splash/presentation/screens/splash_screen_view.dart';
 import 'package:flutter/material.dart';
 
@@ -39,6 +41,11 @@ class AppRouter {
 
       case Routes.providerSignUpInfoTwoScreen:
         return MaterialPageRoute(builder: (_) => const ProviderSignUpInfoTwoScreen());
+      case Routes.verificationStatusScreen:
+        return MaterialPageRoute(builder: (_) => const VerificationStatusScreen());
+      case Routes.providerBottomNavBarScreen:
+        return MaterialPageRoute(builder: (_) => const ProviderBottomNavScreen());
+
       case Routes.jobDetailsScreen:
         return MaterialPageRoute(builder: (_) => const JobStatuesScreen());
       case Routes.enterEmail:

@@ -41,15 +41,30 @@ class AppTextStyle {
     color: Color(0xff44444A),
     fontWeight: FontWeight.normal,
   );
+  static TextStyle font18RegularColor55555 = TextStyle(
+    fontSize: 18.sp,
+    color: Color(0xff555555),
+    fontWeight: FontWeight.normal,
+  );
 
   static TextStyle font16MediumLabelGrey = TextStyle(
     fontSize: 16.sp,
     color: Color(0xff414145),
     fontWeight: FontWeight.w500,
   );
+  static TextStyle font20MediumLabelGrey = TextStyle(
+    fontSize: 20.sp,
+    color: Color(0xff414145),
+    fontWeight: FontWeight.w500,
+  );
   static TextStyle font16MediumTextField = TextStyle(
     fontSize: 16.sp,
     color: Color(0xff4A4A4A),
+    fontWeight: FontWeight.w500,
+  );
+  static TextStyle font14MediumTextField = TextStyle(
+    fontSize: 14.sp,
+    color: Color(0xff33346E),
     fontWeight: FontWeight.w500,
   );
   static TextStyle font16SemiBoldWhite = TextStyle(

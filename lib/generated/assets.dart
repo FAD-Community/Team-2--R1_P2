@@ -6,17 +6,29 @@ class Assets {
   static const String fontsInter18ptMedium = 'assets/fonts/Inter_18pt-Medium.ttf';
   static const String fontsInter18ptRegular = 'assets/fonts/Inter_18pt-Regular.ttf';
   static const String fontsInter18ptSemiBold = 'assets/fonts/Inter_18pt-SemiBold.ttf';
+  static const String iconsApple = 'assets/icons/apple.svg';
+  static const String iconsArrowRight = 'assets/icons/arrow-right.svg';
   static const String iconsCameraIcon = 'assets/icons/camera_icon.svg';
   static const String iconsCashIcon = 'assets/icons/cash_icon.svg';
   static const String iconsCreditIcon = 'assets/icons/credit_icon.svg';
+  static const String iconsFacebook = 'assets/icons/facebook.svg';
+  static const String iconsGoogle = 'assets/icons/google.svg';
+  static const String iconsIconsCheck = 'assets/icons/icons_check.svg';
   static const String iconsLocationIcon = 'assets/icons/location_icon.svg';
   static const String iconsOnlineBankIcon = 'assets/icons/online_bank_icon.svg';
+  static const String iconsPendingIcon = 'assets/icons/pending_icon.svg';
+  static const String iconsProviderChatIcon = 'assets/icons/provider_chat_icon.svg';
+  static const String iconsProviderHomeIcon = 'assets/icons/provider_home_icon.svg';
+  static const String iconsProviderProfileIcon = 'assets/icons/provider_profile_icon.svg';
+  static const String iconsProviderRequestIcon = 'assets/icons/provider_request_icon.svg';
   static const String iconsWalletIcon = 'assets/icons/wallet_icon.svg';
+  static const String imagesBackground = 'assets/images/background.png';
   static const String imagesPesonImage = 'assets/images/peson_image.avif';
   static const String imagesSplash = 'assets/images/splash.png';
   static const String onboardingOne = 'assets/images/onboarding/one.png';
   static const String onboardingThree = 'assets/images/onboarding/three.png';
   static const String onboardingTwo = 'assets/images/onboarding/two.png';
   static const String providerProviderSignUpBackground = 'assets/images/provider/provider_sign_up_background.png';
+  static const String providerWaitingApprove = 'assets/images/provider/waiting_approve.png';
 
 }

@@ -29,7 +29,7 @@ class _ProviderSignUpScreenState extends State<ProviderSignUpScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.background,
+      backgroundColor: AppColors.backgroundScaffold,
       body: SafeArea(
         child: Stack(
           children: [

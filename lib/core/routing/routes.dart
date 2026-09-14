@@ -38,6 +38,7 @@ class Routes {
 
   static const String providerSignUpScreen = '/providerSignUpScreen';
   static const String verificationStatusScreen = '/verificationStatusScreen';
+  static const String providerBottomNavBarScreen = '/providerBottomNavBarScreen';
   static const String providerHomeScreen = '/providerHomeScreen';
   static const String myServicesScreen = '/myServicesScreen';
   static const String availableRequestsScreen = '/availableRequestsScreen';
@@ -47,6 +48,7 @@ class Routes {
   static const String providerSignUpInfoOneScreen = '/providerSignUpInfoOneScreen';
   static const String providerSignUpInfoTwoScreen = '/providerSignUpInfoTwoScreen';
   static const String completionDetailsScreen = '/completionDetailsScreen';
+  static const String providerChatScreen = '/providerChatScreen';
   static const String providerProfileScreen = '/providerProfileScreen';
   static const String completedJobsScreen = '/completedJobsScreen';
   static const String earningsScreen = '/earningsScreen';
