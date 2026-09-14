@@ -17,6 +17,10 @@ class Assets {
   static const String iconsLocationIcon = 'assets/icons/location_icon.svg';
   static const String iconsOnlineBankIcon = 'assets/icons/online_bank_icon.svg';
   static const String iconsPendingIcon = 'assets/icons/pending_icon.svg';
+  static const String iconsProviderChatIcon = 'assets/icons/provider_chat_icon.svg';
+  static const String iconsProviderHomeIcon = 'assets/icons/provider_home_icon.svg';
+  static const String iconsProviderProfileIcon = 'assets/icons/provider_profile_icon.svg';
+  static const String iconsProviderRequestIcon = 'assets/icons/provider_request_icon.svg';
   static const String iconsWalletIcon = 'assets/icons/wallet_icon.svg';
   static const String imagesBackground = 'assets/images/background.png';
   static const String imagesPesonImage = 'assets/images/peson_image.avif';

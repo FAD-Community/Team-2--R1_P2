@@ -14,11 +14,14 @@ abstract final class AppColors {
   // Background
   static const Color background = Color(0xFFF8FAFC);
   static const Color surface = Color(0xFFFFFFFF);
+  static const Color backgroundBottomNavIcon = Color(0xFFF5F5FF);
 
   // Text
   static const Color textPrimary = Color(0xFF0F172A);
   static const Color textSecondary = Color(0xFF64748B);
   static const Color textDisabled = Color(0xFF94A3B8);
+  static const Color selectedTextBottomNav = Color(0xFF33346E);
+  static const Color unSelectedTextBottomNav = Color(0xFFFAFAFC);
 
   // Border
   static const Color border = Color(0xFFE2E8F0);
