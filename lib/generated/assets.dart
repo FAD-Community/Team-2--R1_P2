@@ -8,6 +8,7 @@ class Assets {
   static const String fontsInter18ptSemiBold = 'assets/fonts/Inter_18pt-SemiBold.ttf';
   static const String iconsApple = 'assets/icons/apple.svg';
   static const String iconsArrowRight = 'assets/icons/arrow-right.svg';
+  static const String iconsBellNotification = 'assets/icons/bell-notification.svg';
   static const String iconsCameraIcon = 'assets/icons/camera_icon.svg';
   static const String iconsCashIcon = 'assets/icons/cash_icon.svg';
   static const String iconsCreditIcon = 'assets/icons/credit_icon.svg';
@@ -17,17 +18,22 @@ class Assets {
   static const String iconsLocationIcon = 'assets/icons/location_icon.svg';
   static const String iconsOnlineBankIcon = 'assets/icons/online_bank_icon.svg';
   static const String iconsPendingIcon = 'assets/icons/pending_icon.svg';
+  static const String iconsPowerFailureIcon = 'assets/icons/power_failure_icon.svg';
   static const String iconsProviderChatIcon = 'assets/icons/provider_chat_icon.svg';
   static const String iconsProviderHomeIcon = 'assets/icons/provider_home_icon.svg';
   static const String iconsProviderProfileIcon = 'assets/icons/provider_profile_icon.svg';
   static const String iconsProviderRequestIcon = 'assets/icons/provider_request_icon.svg';
+  static const String iconsRequestsIcon = 'assets/icons/requests_icon.svg';
+  static const String iconsUpcomingIcon = 'assets/icons/upcoming_icon.svg';
   static const String iconsWalletIcon = 'assets/icons/wallet_icon.svg';
+  static const String iconsWaterLeakageIcon = 'assets/icons/water_leakage_icon.svg';
   static const String imagesBackground = 'assets/images/background.png';
   static const String imagesPesonImage = 'assets/images/peson_image.avif';
   static const String imagesSplash = 'assets/images/splash.png';
   static const String onboardingOne = 'assets/images/onboarding/one.png';
   static const String onboardingThree = 'assets/images/onboarding/three.png';
   static const String onboardingTwo = 'assets/images/onboarding/two.png';
+  static const String providerProfilePhoto = 'assets/images/provider/profile_photo.png';
   static const String providerProviderSignUpBackground = 'assets/images/provider/provider_sign_up_background.png';
   static const String providerWaitingApprove = 'assets/images/provider/waiting_approve.png';
 
