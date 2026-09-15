@@ -46,6 +46,11 @@ class AppTextStyle {
     color: Color(0xff555555),
     fontWeight: FontWeight.normal,
   );
+  static TextStyle font18MediumOffWhite = TextStyle(
+    fontSize: 18.sp,
+    color: Color(0xffF2F2F2),
+    fontWeight: FontWeight.w500,
+  );
 
   static TextStyle font16MediumLabelGrey = TextStyle(
     fontSize: 16.sp,
@@ -67,6 +72,11 @@ class AppTextStyle {
     color: Color(0xff33346E),
     fontWeight: FontWeight.w500,
   );
+  static TextStyle font14RegularBlack = TextStyle(
+    fontSize: 14.sp,
+    color: Colors.black,
+    fontWeight: FontWeight.normal,
+  );
   static TextStyle font16SemiBoldWhite = TextStyle(
     fontSize: 16.sp,
     color: Colors.white,
@@ -76,6 +86,11 @@ class AppTextStyle {
     fontSize: 16.sp,
     color: AppColors.primary,
     fontWeight: FontWeight.w500,
+  );
+  static TextStyle font16RegularGrey = TextStyle(
+    fontSize: 16.sp,
+    color: Color(0xff555555),
+    fontWeight: FontWeight.normal,
   );
 
   static TextStyle font24SemiBoldPrimary = TextStyle(
@@ -110,5 +125,10 @@ class AppTextStyle {
     fontSize: 12.sp,
     color: const Color(0xFF757575),
     fontWeight: FontWeight.normal,
+  );
+  static TextStyle font12MediumPrimary= TextStyle(
+    fontSize: 12.sp,
+    color: AppColors.primary,
+    fontWeight: FontWeight.w600,
   );
 }
